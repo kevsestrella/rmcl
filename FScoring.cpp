@@ -42,11 +42,13 @@ int main(int argc, char **argv){
 
   string temp_name;
   char line[BUFFSIZE];
-  int pos, postart;
+  int pos, postart, numclusters;
+  int flag = 0;
   int protein_id = 1;
   double cyc_size, clust_size, intersect_size;
   double fscore = 0.0;
   double tempscore = 0.0;
+  double avgFscore = 0.0;
   size_t len;
 
 //READ CLUSTER MAPPING FILE AND STORE IN MAP
@@ -102,7 +104,6 @@ int main(int argc, char **argv){
     }
 
     //COMPUTE FSCORE
-    int temp = 0;
 
     for (itermap it = complex_map.begin(); it != complex_map.end(); it++){
       
@@ -124,23 +125,28 @@ int main(int argc, char **argv){
       if(tempscore > fscore){
         fscore = tempscore;
         temp_name = it->first;
-        temp = 1;
+        flag = 1;
       }
     }
     
-    if(temp == 0){//(fscore == 0.0){
+    if(flag == 0){//(fscore == 0.0){
       temp_name = "NAN!";
     }
   //END COMPUTE FSCORE, OUTPUT TO FILE
 
   fprintf(outputfile, "%s   %f\n", temp_name.c_str() ,fscore);
-  
+  avgFscore = avgFscore + (fscore * clust_size);
+  numclusters++;
   //reset to defaults
   fscore = 0.0;
   temp_name = "NAN";
-  temp = 0;
+  flag = 0;
   protein_members.clear();
   }
+
+  double finalAvgFScore = (avgFscore/numclusters);
+  fprintf(outputfile, "Average Fscore: %f\n", finalAvgFScore);
+
 
   fclose(inputclusters);
   fclose(proteinmap);
