@@ -52,14 +52,16 @@ int main(int argc, char **argv){
   double avgFscore = 0.0;
   size_t len;
 
+
+  int intersect2 = 0;
 //READ CLUSTER MAPPING FILE AND STORE IN MAP
+  printf("%s\n", "Begin reading cluster mapping...");
   while(fgets(line, sizeof line, clustermap) != NULL){
     
     len = strlen(line);
     if(line[len-1] == '\n'){
       line[len-1] = '\0'; 
     }
-
    string line_c (line);
 
    pos = line_c.find("   ");
@@ -68,6 +70,7 @@ int main(int argc, char **argv){
    pos = 0;
    postart = 0;
    
+   int temp = 0;
    while(pos != (protein_list.size() -1)){
       pos = protein_list.find(" ", pos);
       if(pos != string::npos){
@@ -79,10 +82,14 @@ int main(int argc, char **argv){
         if(pos != protein_list.size()-1){
           postart = pos;
           pos++;
-        } 
+        }
+      temp++;
       }
     }
   }
+//proeinstein --> from wealthy <3
+  printf("%s\n","Finished reading cluster mapping file.");
+  printf("%s\n", "Begin reading protein mapping file...");
 //END OF READING CLUSTER MAPPING FILE
 
 //READ PROTEIN MAPPING AND STORE IN MAP
@@ -95,8 +102,9 @@ int main(int argc, char **argv){
     protein_id++;
   }
 // END OF READING PROTEIN MAPPING
-
+printf("%s\n","Finished reading protein mapping file.");
 //READ INPUT FILE AND CALCULATE FSCORE
+printf("%s\n", "Now calculating F-scores of output clusters...");
   while(fgets(line, sizeof line, inputclusters) != NULL){
     char *tok = strtok(line, " ");
     while(tok != NULL){
@@ -106,14 +114,15 @@ int main(int argc, char **argv){
 
     //COMPUTE FSCORE
     clust_size = protein_members.size();
+    
     for (itermap it = complex_map.begin(); it != complex_map.end(); it++){
-      
       vector<string> intersect;
       set_intersection(protein_members.begin(), protein_members.end(),
                         it->second.begin(), it->second.end(), back_inserter(intersect));
-          
-      cyc_size = it->second.size();
       intersect_size = intersect.size();
+      cyc_size = it->second.size();
+
+      //bdhedmgfkflkf  -- WEALTHY WUZ HERE OHH YEAAAAHHH
 
       if(intersect_size != 0){
         tempscore = (2 * (intersect_size/cyc_size) * (intersect_size/clust_size) ) / 
@@ -126,17 +135,22 @@ int main(int argc, char **argv){
         fscore = tempscore;
         temp_name = it->first;
         flag = 1;
+        
       }
+      intersect2 = 0;
     }
     
     if(flag == 0){//(fscore == 0.0){
       temp_name = "NAN!";
     }
+    else{
+      sumclusters = sumclusters + clust_size;
+    }
   //END COMPUTE FSCORE, OUTPUT TO FILE
 
   fprintf(outputfile, "%s   %f\n", temp_name.c_str() ,fscore);
   avgFscore = avgFscore + (fscore * clust_size);
-  sumclusters = sumclusters + clust_size;
+  
   //reset to defaults
   fscore = 0.0;
   temp_name = "NAN";
@@ -146,7 +160,7 @@ int main(int argc, char **argv){
 
   double finalAvgFScore = (avgFscore/sumclusters);
   fprintf(outputfile, "Average Fscore: %f\n", finalAvgFScore);
-
+  printf("%s\n", "Finished computing F-scores.");
 
   fclose(inputclusters);
   fclose(proteinmap);
