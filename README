@@ -1,22 +1,31 @@
 README
 
-As of Oct 25, 2014
+As of Nov 16, 2014
 
-All input files are in the folder "inputfiles"
+
+**To run a batch of clustering with varying threshold values in FS Weighting, run the script "threshold.sh"
+
+**To run a batch of clustering with varying alpha or gamma parameters in Core-Attachment, run the script "alphagamma.sh"
+
+**These will only run properly if:
+	--there is a folder named "mlr_and_mlroutputs" in the root directory, and the mlrmcl .exe is located there
+	--there is a folder named "predicted" in the root directory, and the FScoring is compiled there
+
+**The Makefiles still need to be edited so that they will be consistent with the bash scripts. THEY HAVE NOT YET BEEN UPDATED AS OF NOW. 
 
 
 FSWeighting
 --this adds the weighting to an input graph. Run this before the actual mlrmcl.
---sample input to this is biogrid2.in
---threshold: So far, we've used 0.2
+--sample input to this is biogrid.in
+--threshold: default is 0.2
+
 
 
 MLRMCL
 --the .exe is provided, not the .cpp file! (if you want to rebuild/recompile mlrmcl, it needs libraries not yet included in this repo).
 --it's enough to be able to run the .exe :) I think :)
 --run this with the output file of the FSWeighting as its input
---this will give a file, where each line indicates the cluster number that the nth line/protein 
-belongs to
+--this will give a file, where each line indicates the cluster number that the nth line/protein belongs to
 
 
 CAw
@@ -31,3 +40,25 @@ FScoring
 --still not so optimized (still a little slow)
 --sample inputs to this are CAw_output_0.2, BioGRID_AGaser_graph_mapping, clusters_with_proteins_list
 (there are 3 input files needed: one is the output from CAw, second is the mapping of proteins to the ids, third is the listing of complexes and their proteins based on experimental data)
+
+
+Naming conventions:
+
+Each file begins with a "b" or a "d", depending if the clustering was on BioGRID or DIP.
+
+t indicates a threshold value (for FSWeighting) immediately after it
+a indicates an alpha value (for CAw) immediately after it
+g indicates a gamma value (for CAw) immediately after it 
+
+
+Example-- One run of clustering the BioGRID file will result in the ff. files:
+bt<value> : the resulting network file with weights (output of FSWeighting)
+bmt<value> : the network file formatted for MLRMCL. This is also an "output" of FSWeighting and is used as input to MLRMCL
+bct<value>: the clusterings resulting from MLRMCL. This is the output file of MLRMCL
+bpt<value>a<value>g<value>: the result from CAw with threshold, alpha, and gamma values indicated.
+bsct<value>a<value>g<value>: the CAw result with computed FScores and matched clusters
+
+
+Formatting for Cytoscape/Gephi:
+--To convert the CAw result to a format readable by Cytoscape/Gephi, run CytoConverter (this is still raw)
+--Naming convention used here is the same, except resulting file begins w/ "v" (visualization)

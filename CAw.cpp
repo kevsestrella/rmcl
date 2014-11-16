@@ -3,23 +3,65 @@
 #include<cmath>
 #include<iostream>
 #include<vector>
-#include<set>
 #include<map>
 #include<algorithm>
 using namespace std;
 #define edge pair<int, double>
 #define EPS 1e-8
-#define LEN 1500
+#define LEN 4096
+
+void print_help(char *program_name) {
+	printf("Usage: %s [options] <FS graph> <MLR-MCL clustering> <output file>\n", program_name);
+	printf("Options:\n");
+	printf("	-a <float>	alpha parameter (default 1.0)\n");
+	printf("	-g <float>	gamma parameter (default 0.75)\n");
+}
 
 int main(int argc, char **argv) {
-	if(argc != 4) {
-		printf("Usage: <input graph> <input clustering> <output file>\n");
+	double alpha = 1.0, gamma = 0.75;
+	
+	if(argc < 4) {
+		print_help(argv[0]);
+		return 0;
+	}
+	int offset = 1;
+	for(; argv[offset][0] == '-';) {
+		if(strlen(argv[offset]) != 2) {
+			print_help(argv[0]);
+			return 0;
+		}
+		switch(argv[offset][1]) {
+			case 'a':
+				alpha = atof(argv[offset+1]);
+				offset+=2;
+				if(alpha == 0.0) {
+					printf("Invalid value.\n");
+					print_help(argv[0]);
+					return 0;
+				}
+				break;
+			case 'g':
+				gamma = atof(argv[offset+1]);
+				offset+=2;
+				if(gamma == 0.0) {
+					printf("Invalid value.\n");
+					print_help(argv[0]);
+					return 0;
+				}
+				break;
+			default:
+				print_help(argv[0]);
+				return 0;
+		}
+	}
+	if(offset+2 != argc-1) {
+		print_help(argv[0]);
 		return 0;
 	}
 	
-	FILE* wgraph = fopen(argv[1], "r");
-	FILE* clus = fopen(argv[2], "r");
-	FILE* complexes = fopen(argv[3], "w+");
+	FILE* wgraph = fopen(argv[offset], "r");
+	FILE* clus = fopen(argv[offset+1], "r");
+	FILE* complexes = fopen(argv[offset+2], "w+");
 	
 	if(wgraph == NULL || clus == NULL) {
 		perror("");
@@ -29,8 +71,6 @@ int main(int argc, char **argv) {
 	int V, Vnew, E;
 	int numclusters = 0;
 	char str[LEN];
-	double alpha = 1.0, gamma = 1.5;
-	
 	
 	fscanf(wgraph, "%d%d%d", &V,&Vnew,&E);
 	fgets(str, LEN, wgraph);
@@ -47,7 +87,7 @@ int main(int argc, char **argv) {
 		fscanf(clus, "%d", &cluster[c]);
 		numclusters = max(numclusters, cluster[c]);
 		
-		fgets(str, 1500, wgraph);
+		fgets(str, LEN, wgraph);
 		char *splitter = strtok(str, " ");
 		mapping[c] = atoi(splitter)-1;
 		backmap[mapping[c]] = c;
@@ -97,7 +137,7 @@ int main(int argc, char **argv) {
 	for(int c = 0; c < numclusters; c++)
 		avg_winconn[c] /= (2.0*cluster_size[c]);
 	
-	for(int c = 0; c < Vnew; c++) { //p_winconn[c] - avg_winconn[cluster[c]] >= EPS && p_winconn[c] - p_woutconn[c] > EPS
+	for(int c = 0; c < Vnew; c++) { /*p_winconn[c] - avg_winconn[cluster[c]] >= EPS && p_winconn[c] - p_woutconn[c] > EPS*/
 		if(p_winconn[c] >= avg_winconn[cluster[c]] && p_winconn[c] > p_woutconn[c]) {
 			members[cluster[c]].push_back(mapping[c]+1);
 			isCore[c] = true;
@@ -126,7 +166,7 @@ int main(int argc, char **argv) {
 		avg_winconnC[c] /= (2.0*cluster_size[c]);
 		
 	for(int c = 0; c < Vnew; c++) {
-		if(!isCore[c]) { //p_winconnC[c] - avg_winconnC[cluster[c]] >= EPS && p_winconnC[c] - p_woutconnC[c] > EPS
+		if(!isCore[c]) { /*p_winconnC[c] - avg_winconnC[cluster[c]] >= EPS && p_winconnC[c] - p_woutconnC[c] > EPS*/
 			if(p_winconnC[c] >= avg_winconnC[cluster[c]] && p_winconnC[c] > p_woutconnC[c]) {
 				members[cluster[c]].push_back(mapping[c]+1);
 				isCore[c] = true;
