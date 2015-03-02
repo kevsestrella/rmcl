@@ -1,0 +1,30 @@
+#fs = open('bt0.2', 'r')
+cl = open('mlrmclbraw', 'r')
+
+M = {}
+clusters = {}
+
+#fs.readline()
+#i = 1
+#for line in fs:
+#	li = line.split()
+#	M[i] = int(li[0])
+#	i = i+1
+#	clusters[i] = []
+i = 1
+numclusters = 0
+for line in cl:
+	j = int(line)
+	if j+1 > numclusters:
+		numclusters = j+1
+	if j not in clusters:
+		clusters[j] = []
+	clusters[j].append(i)
+	i = i+1
+for i in range(numclusters):
+	lel = clusters[i]
+	for j in range(len(lel)):
+		if j > 0:
+			print(''),
+		print(lel[j]),
+	print('')
