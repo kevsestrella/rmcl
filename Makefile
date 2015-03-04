@@ -14,5 +14,3 @@ compile:
 	g++ $(FS).cpp -o $(FSE)
 	g++ $(CA).cpp -o $(CAE)
 
-fscore:
-	(cd ./predicted ; g++ $(FSC).cpp -o $(FSCE) ; )
