@@ -1,11 +1,22 @@
 README
 
-As of March 4, 2015
+As of March 9, 2015
 
+TL;DR Section:
 
-1) To compile the needed files for running MLR-CAw, run Make
+1) To compile the needed files for running MLR-CAw, run Make.
+
+2) Make will also compile the needed files for F-Scoring in the scoring folder.
+
 2) To cluster a file using MLR-CAw, run the shell script "mlrcaw.sh" (NOTE: WE NEED TO CHANGE THE CURRENT mmlrcaw.sh TO MAKE IT CONSISTENT WITH THE CLEANED REPO (change the directory names!))
-3) To score the output of MLR-CAw (F-score under 4 scenarios), run the shell script "fourscenarios.sh" in the folder "scoring"
+
+3) To score the output of MLR-CAw for BioGRID or DIP datasets (F-score under 4 scenarios), run the shell script "fourscenarios.sh" in the folder "scoring". Command-line arguments of "fourscenarios.sh" are:
+	1) b or d --> if the cluster result you will want to score is biogrid or dip
+	2) filename of output
+
+	Ex. ./fourscenarios.sh b biogrid_cluster_results.txt
+
+4) To score the output of MLR-CAw under your own scenarios, or to score using other literature (not BioGRID or DIP), you can independently run FScoring or FScoringInc. FScoring however excludeds NAN clusters from the average F-score, while FScoringInc includes them. (See FScoring Package for more details)
 
 
 I. MLR-CAw 
@@ -73,16 +84,15 @@ A. Four Scenarios
 
 	Scenario D: Exclude NAN clusters in calculation, Use complete CYC
 
---In "fourscenarios.sh":
+--"fourscenarios.sh" runs FScoring and FScoringInc:
+
 	--FScoring gets the maximum FScore of each cluster resulting from CAw, and gives the average FScore at the end, EXCLUDING NAN CLUSTERS
 	--FSCoringInc does the same, except it INCLUDES NAN CLUSTERS
-	--Both can be called individually outside the shell script (if you just want one kind of result, not the four scenarios)
+	--Both can be called individually outside the shell script if you want to define your own scenarios or indicate specific files
 	--Inputs to both are: 
 		1) the output file from MLRCAw
 		2) the mapping of the proteins to their ids (BioGRID_AGAser etc etc)
 		3) the version of CYC you want to use (or basically any listing of complexes and their proteins based on experimental data)
-
-
 
 
 
