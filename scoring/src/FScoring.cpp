@@ -54,7 +54,7 @@ int main(int argc, char **argv){
 
   int intersect2 = 0;
 //READ CLUSTER MAPPING FILE AND STORE IN MAP
-  printf("%s\n", "Begin reading cluster mapping...");
+  printf("%s\n", "Begin reading complex (literature) mapping...");
   while(fgets(line, sizeof line, clustermap) != NULL){
     
     len = strlen(line);
@@ -86,8 +86,7 @@ int main(int argc, char **argv){
       }
     }
   }
-//proeinstein --> from wealthy <3
-  printf("%s\n","Finished reading cluster mapping file.");
+  printf("%s\n","Finished reading complex mapping file.");
   printf("%s\n", "Begin reading protein mapping file...");
 //END OF READING CLUSTER MAPPING FILE
 

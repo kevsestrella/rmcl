@@ -1,48 +1,58 @@
 README
 
-As of Nov 16, 2014
+As of March 9, 2015
+
+TL;DR Section:
+
+1) To compile the needed files for running MLR-CAw, run Make.
+
+2) Make will also compile the needed files for F-Scoring in the scoring folder.
+
+2) To cluster a file using MLR-CAw, run the shell script "mlrcaw.sh" (NOTE: WE NEED TO CHANGE THE CURRENT mmlrcaw.sh TO MAKE IT CONSISTENT WITH THE CLEANED REPO (change the directory names!))
+
+3) To score the output of MLR-CAw for BioGRID or DIP datasets (F-score under 4 scenarios), run the shell script "fourscenarios.sh" in the folder "scoring". Command-line arguments of "fourscenarios.sh" are:
+	1) b or d --> if the cluster result you will want to score is biogrid or dip
+	2) filename of output
+
+	Ex. ./fourscenarios.sh b biogrid_cluster_results.txt
+
+4) To score the output of MLR-CAw under your own scenarios, or to score using other literature (not BioGRID or DIP), you can independently run FScoring or FScoringInc. FScoring however excludeds NAN clusters from the average F-score, while FScoringInc includes them. (See FScoring Package for more details)
 
 
-**To run a batch of clustering with varying threshold values in FS Weighting, run the script "threshold.sh"
+I. MLR-CAw 
 
-**To run a batch of clustering with varying alpha or gamma parameters in Core-Attachment, run the script "alphagamma.sh"
-
-**These will only run properly if:
-	--there is a folder named "mlr_and_mlroutputs" in the root directory, and the mlrmcl .exe is located there
-	--there is a folder named "predicted" in the root directory, and the FScoring is compiled there
-
-**The Makefiles still need to be edited so that they will be consistent with the bash scripts. THEY HAVE NOT YET BEEN UPDATED AS OF NOW. 
-
+MLR-CAw is composed of the following components: 
 
 FSWeighting
 --this adds the weighting to an input graph. Run this before the actual mlrmcl.
---sample input to this is biogrid.in
 --threshold: default is 0.2
-
+--input: the uncleaned network file
+		--sample input to this is biogrid.in
+--output: this will give 2 files:
+	1) a resulting network file with weights (usually named with "t<somevalue>" at the end, see Part II Naming Conventions)
+	2) another network file formatted for MLRMCL (usually named with "mt<somevalue>" at the end, see Part II Naming Conventions)
 
 
 MLRMCL
---the .exe is provided, not the .cpp file! (if you want to rebuild/recompile mlrmcl, it needs libraries not yet included in this repo).
---it's enough to be able to run the .exe :) I think :)
---run this with the output file of the FSWeighting as its input
---this will give a file, where each line indicates the cluster number that the nth line/protein belongs to
+--the .exe is provided, not the .cpp file! (if you want to rebuild/recompile mlrmcl, it needs libraries in the 3.package folder. Check out the documentations there to recompile it).
+--for MLR-CAw, it's enough to be able to run the .exe :)
+--input: the output file #2 from FSWeighting (usually named with "mt<somevalue>" at the end, see Part II Naming Conventions)
+--output: a file where each line indicates the cluster number that the nth line/protein belongs to (usually named with "ct<somevalue>" at the end, see Part II Naming Conventions)
 
 
 CAw
 --run this with the formatted output of MLRMCL
---sample inputs to this are biogrid0.2 (output of FSWeighting), biogrid0.2clustering (output of MLRMCL)
---this will give a file, each line corresponds to a cluster number. On each line is a list of the proteins that 
+--alpha: default is 1.0
+--gamma: default is 0.75
+--inputs to this are: 
+		1) the network file with weights (output file #1 from FSWeighting)
+		2) the clustering file resulting from MLRMCL
+--output: a file where each line corresponds to a cluster number. On each line is a list of the proteins that 
 belong to this cluster. Proteins are indicated with a number/id based on the file BioGRID_AGaser_graph_mapping
 
 
-FScoring
---gets the maximum Fscore of each cluster resulting from CAw, and gives the average FScore at the end
---still not so optimized (still a little slow)
---sample inputs to this are CAw_output_0.2, BioGRID_AGaser_graph_mapping, clusters_with_proteins_list
-(there are 3 input files needed: one is the output from CAw, second is the mapping of proteins to the ids, third is the listing of complexes and their proteins based on experimental data)
 
-
-Naming conventions:
+II. MLR-CAw File Outputs Naming Conventions
 
 Each file begins with a "b" or a "d", depending if the clustering was on BioGRID or DIP.
 
@@ -51,14 +61,41 @@ a indicates an alpha value (for CAw) immediately after it
 g indicates a gamma value (for CAw) immediately after it 
 
 
-Example-- One run of clustering the BioGRID file will result in the ff. files:
-bt<value> : the resulting network file with weights (output of FSWeighting)
-bmt<value> : the network file formatted for MLRMCL. This is also an "output" of FSWeighting and is used as input to MLRMCL
-bct<value>: the clusterings resulting from MLRMCL. This is the output file of MLRMCL
-bpt<value>a<value>g<value>: the result from CAw with threshold, alpha, and gamma values indicated.
-bsct<value>a<value>g<value>: the CAw result with computed FScores and matched clusters
+Example:
+One run of clustering the BioGRID file will result in the ff. files:
+	bt<value> : the resulting network file with weights (output of FSWeighting)
+	bmt<value> : the network file formatted for MLRMCL. This is also an "output" of FSWeighting and is used as input to MLRMCL
+	bct<value>: the clusterings resulting from MLRMCL. This is the output file of MLRMCL
+	bpt<value>a<value>g<value>: the result from CAw with threshold, alpha, and gamma values indicated.
+	bsct<value>a<value>g<value>: the CAw result with computed FScores and matched clusters
 
 
-Formatting for Cytoscape/Gephi:
+III. Scoring Package
+
+A. Four Scenarios
+--To do four scenarios, run the script "fourscenarios.sh"
+--This calculates the FScore under four scenarios:
+	
+	Scenario A: Include NAN clusters in calculation, Use a tailored version of CYC (eliminates proteins not in biogrid/dip from CYC)
+
+	Scenario B: Exclude NAN clusters in calculation, Use a tailored version of CYC
+	
+	Scenario C: Include NAN clusters in calculation, Use complete CYC
+
+	Scenario D: Exclude NAN clusters in calculation, Use complete CYC
+
+--"fourscenarios.sh" runs FScoring and FScoringInc:
+
+	--FScoring gets the maximum FScore of each cluster resulting from CAw, and gives the average FScore at the end, EXCLUDING NAN CLUSTERS
+	--FSCoringInc does the same, except it INCLUDES NAN CLUSTERS
+	--Both can be called individually outside the shell script if you want to define your own scenarios or indicate specific files
+	--Inputs to both are: 
+		1) the output file from MLRCAw
+		2) the mapping of the proteins to their ids (BioGRID_AGAser etc etc)
+		3) the version of CYC you want to use (or basically any listing of complexes and their proteins based on experimental data)
+
+
+
+IV. Formatting for Cytoscape/Gephi:
 --To convert the CAw result to a format readable by Cytoscape/Gephi, run CytoConverter (this is still raw)
 --Naming convention used here is the same, except resulting file begins w/ "v" (visualization)
