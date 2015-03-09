@@ -105,7 +105,7 @@ int main(int argc, char **argv) {
 			printf("Done with node %d.\n", u+1);
     }
     sort(active.begin(), active.end());
-    for(int c = 0; c < active.size(); c++)
+    for(int c = 0; c < (int)(active.size()); c++)
     	mapping[active[c]] = c+1;
     
     fprintf(output, "%d %d %d\n", V, Vnew, Enew);
@@ -114,7 +114,7 @@ int main(int argc, char **argv) {
     for(int c = 0; c < V; c++) {
     	if(!Gw[c].empty()) {
     		fprintf(output, "%d", c+1);
-    		for(int d = 0; d < Gw[c].size(); d++) {
+    		for(int d = 0; d < (int)(Gw[c].size()); d++) {
     			fprintf(output, " %d %lf", Gw[c][d].first+1, Gw[c][d].second);
     			if(d > 0) fprintf(mlrformat, " ");
     			fprintf(mlrformat, "%d %lf", mapping[Gw[c][d].first+1], Gw[c][d].second*100.0);

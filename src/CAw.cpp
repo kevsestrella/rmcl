@@ -125,7 +125,7 @@ int main(int argc, char **argv) {
 	
 	for(int c = 0; c < Vnew; c++) {
 		cluster_size[cluster[c]] += 1.0;
-		for(int d = 0; d < G[c].size(); d++) {
+		for(int d = 0; d < (int)(G[c].size()); d++) {
 			int j = backmap[G[c][d].first];
 			if(cluster[c] == cluster[j])
 				p_winconn[c] += G[c][d].second;
@@ -150,7 +150,7 @@ int main(int argc, char **argv) {
 	
 	for(int c = 0; c < Vnew; c++) {
 		if(isCore[c]) continue;
-		for(int d = 0; d < G[c].size(); d++) {
+		for(int d = 0; d < (int)(G[c].size()); d++) {
 			int j = backmap[G[c][d].first];
 			if(cluster[c] == cluster[j]) {
 				if(isCore[j])
@@ -180,7 +180,7 @@ int main(int argc, char **argv) {
 	
 	for(int c = 0; c < Vnew; c++) {
 		if(isCore[c]) {
-			for(int d = 0; d < G[c].size(); d++) {
+			for(int d = 0; d < (int)(G[c].size()); d++) {
 				int j = backmap[G[c][d].first];
 				if(isCore[j] && cluster[c] == cluster[j])
 					cluster_inter[cluster[c]] += G[c][d].second;
@@ -194,7 +194,7 @@ int main(int argc, char **argv) {
 		if(isCore[c]) continue;
 		double p_interC[numclusters];
 		fill(p_interC, p_interC+numclusters, 0.0);
-		for(int d = 0; d < G[c].size(); d++) {
+		for(int d = 0; d < (int)(G[c].size()); d++) {
 			int j = backmap[G[c][d].first];
 			if(isCore[j])
 				p_interC[cluster[j]] += G[c][d].second;
@@ -214,7 +214,7 @@ int main(int argc, char **argv) {
 	for(int c = 0; c < numclusters; c++) {
 		if(members[c].size() >= 4) {
 			sort(members[c].begin(), members[c].end());
-			for(int d = 0; d < members[c].size(); d++) {
+			for(int d = 0; d < (int)(members[c].size()); d++) {
 				if(d > 0) fprintf(complexes, " ");
 				fprintf(complexes, "%d", members[c][d]);
 			}
