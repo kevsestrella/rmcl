@@ -24,8 +24,8 @@ else
 	cd bin
 	./mlrmcl -o "${name}ct${threshold}" "${name}mt${threshold}"
 
-	mv "${name}ct${threshold}" clustering
-	m  "$${name}mt${threshold}" clustering
+	mv "${name}ct${threshold}" ../clustering
+	mv "${name}mt${threshold}" ../clustering
 		
 	cd ../
 
