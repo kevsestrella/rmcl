@@ -1,5 +1,5 @@
 #!/bin/bash
-FSE=FSWeighting
+FSE=FSWeight
 CAE=CAw
 
 
@@ -17,20 +17,17 @@ else
 	echo "Computing FSWeights at $threshold threshold..."
 
 
-	./bin/./$FSE "${name}" "${name}t${threshold}" "./clustering/${name}mt${threshold}" ${threshold}
+	./$FSE "${name}" "${name}t${threshold}" "./clustering/${name}mt${threshold}" ${threshold}
 		
 	echo "Finished computing FSWeights. Now running MLRMCL..."
 	#mv "${name}mt${threshold}" bin
-	#cd bin
-	./bin/./mlrmcl -o "./clustering/${name}ct${threshold}" "./clustering/${name}mt${threshold}"
+	cd bin
+	./mlrmcl -o "../clustering/${name}ct${threshold}" "../clustering/${name}mt${threshold}"
 
-	#mv "${name}ct${threshold}" clustering
-	#m  "$${name}mt${threshold}" clustering
-		
-	#cd ../
+	cd ../
 
 	echo "Finished MLRMCL. Now running CAw..."
-	./bin/./$CAE -a "${alpha}" -g "${gamma}" "${name}t${threshold}" "./clustering/${name}ct${threshold}" "./scoring/${name}pt${threshold}a${alpha}g${gamma}"
+	./$CAE -a "${alpha}" -g "${gamma}" "${name}t${threshold}" "./clustering/${name}ct${threshold}" "./scoring/${name}pt${threshold}a${alpha}g${gamma}"
 
 	#cd ../
 	echo "Finished CAw. Clustering complete."

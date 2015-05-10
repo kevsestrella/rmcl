@@ -120,8 +120,6 @@ printf("%s\n", "Now calculating F-scores of output clusters...");
       intersect_size = intersect.size();
       cyc_size = it->second.size();
 
-      //bdhedmgfkflkf  -- WEALTHY WUZ HERE OHH YEAAAAHHH
-
       if(intersect_size != 0){
         tempscore = (2 * (intersect_size/cyc_size) * (intersect_size/clust_size) ) / 
         ( (intersect_size/cyc_size) + (intersect_size/clust_size) );

@@ -1,58 +1,86 @@
 README
 
-As of March 9, 2015
+Last updated: May 10, 2015
 
-TL;DR Section:
+==================================================================================
+
+Quick start/TL;DR Section (for you impatient ones :D )
+
+==================================================================================
+
 
 1) To compile the needed files for running MLR-CAw, run Make.
 
 2) Make will also compile the needed files for F-Scoring in the scoring folder.
 
-2) To cluster a file using MLR-CAw, run the shell script "mlrcaw.sh" (NOTE: WE NEED TO CHANGE THE CURRENT mmlrcaw.sh TO MAKE IT CONSISTENT WITH THE CLEANED REPO (change the directory names!))
+3) To cluster a file using MLR-CAw, run the shell script "mlrcaw.sh". Command-line arguments are:
+		1) input file: name of the input file of the PPIN dataset
+		2) threshold: threshold value to use for FS-weighting
+		3) alpha: alpha value to use in CAw scheme
+		4) gamma: gamma value to use in CAw scheme
+	
+	-- The default filename of the clustering output is "<name of input file>pt<thresholdvalue>a<alphavalue>g<gammavalue>"
+		ex. If the PPIN dataset is a file named "proteins", and mlrcaw was run with threshold = 0.2, alpha = 1.0, gamma = 3.0, 
+		the clustering output will be a file named "proteinspt0.2a1.0g3.0"
+	-- For more on this, see Part II on the Naming Conventions. 
 
-3) To score the output of MLR-CAw for BioGRID or DIP datasets (F-score under 4 scenarios), run the shell script "fourscenarios.sh" in the folder "scoring". Command-line arguments of "fourscenarios.sh" are:
-	1) b or d --> if the cluster result you will want to score is biogrid or dip
-	2) filename of output
+	-- If there is a problem with running the MLRMCL portion of the script, check to see that you have the appropriate MLRMCL version placed in the "bin" directory (see Part I , at the MLRMCL for more details)
 
-	Ex. ./fourscenarios.sh b biogrid_cluster_results.txt
+4) To score the output of MLR-CAw for BioGRID or DIP datasets (F-score under 4 scenarios), run the shell script "fourscenarios.sh" in the folder "scoring". Command-line arguments of "fourscenarios.sh" are:
+	1) b or d: if the cluster result you will want to score is biogrid or dip
+	2) filename of clustering output
 
-4) To score the output of MLR-CAw under your own scenarios, or to score using other literature (not BioGRID or DIP), you can independently run FScoring or FScoringInc. FScoring however excludeds NAN clusters from the average F-score, while FScoringInc includes them. (See FScoring Package for more details)
+	Ex. ./fourscenarios.sh b proteinspt0.2a1.0g3.0
+
+5) To score the output of MLR-CAw under your own scenarios, or to score using other literature (not BioGRID or DIP), you can independently run FScoring or FScoringInc. FScoring however excludeds NAN clusters from the average F-score, while FScoringInc includes them. (See FScoring Package for more details)
 
 
-I. MLR-CAw 
+===================================================================================
+
+I. The Components of MLR-CAw 
+
+===================================================================================
 
 MLR-CAw is composed of the following components: 
 
-FSWeighting
---this adds the weighting to an input graph. Run this before the actual mlrmcl.
---threshold: default is 0.2
---input: the uncleaned network file
+A. FSWeighting
+	--This adds the weighting to an input graph. Run this before the actual mlrmcl.
+	--Threshold: default is 0.2
+	
+	--INPUT: the uncleaned network file
 		--sample input to this is biogrid.in
---output: this will give 2 files:
-	1) a resulting network file with weights (usually named with "t<somevalue>" at the end, see Part II Naming Conventions)
-	2) another network file formatted for MLRMCL (usually named with "mt<somevalue>" at the end, see Part II Naming Conventions)
+	--OUTPUT: this will give 2 files:
+		1) a resulting network file with weights (usually named with "t<somevalue>" at the end, see Part II Naming Conventions)
+		2) another network file formatted for MLRMCL (usually named with "mt<somevalue>" at the end, see Part II Naming Conventions)
 
 
-MLRMCL
---the .exe is provided, not the .cpp file! (if you want to rebuild/recompile mlrmcl, it needs libraries in the 3.package folder. Check out the documentations there to recompile it).
---for MLR-CAw, it's enough to be able to run the .exe :)
---input: the output file #2 from FSWeighting (usually named with "mt<somevalue>" at the end, see Part II Naming Conventions)
---output: a file where each line indicates the cluster number that the nth line/protein belongs to (usually named with "ct<somevalue>" at the end, see Part II Naming Conventions)
+B. MLRMCL
+	-- For running MLR-CAw, it's enough to be able to run the .exe of the MLRMCL method. 
+	-- We have provided two versions of the .exe of the MLRMCL: one compiled under a 32-bit system (found in the folder "mlrmcl-32" folder), and one compiled under a 64-bit system (found in the folder "mlrmcl-64").
+	-- Please copy+paste the appropriate version to the "bin" folder, since this is where the script (mlrcaw.sh) will look for it. 
+	-- We have NOT provided the .cpp file! If you want to rebuild/recompile mlrmcl, it needs libraries in the 3.package folder. Check out the documentations there to recompile it. 
+	--The 3.package folder was kindly provided for by Satuluri et. al. 
+	
+	--INPUT: the output file #2 from FSWeighting (usually named with "mt<somevalue>" at the end, see Part II Naming Conventions)
+	--OUTPUT: a file where each line indicates the cluster number that the nth line/protein belongs to (usually named with "ct<somevalue>" at the end, see Part II Naming Conventions)
 
 
-CAw
---run this with the formatted output of MLRMCL
---alpha: default is 1.0
---gamma: default is 0.75
---inputs to this are: 
+C. CAw
+	--Run this with the formatted output of MLRMCL
+	--Alpha: default is 1.0
+	--Gamma: default is 0.75
+
+	--INPUTS: 
 		1) the network file with weights (output file #1 from FSWeighting)
 		2) the clustering file resulting from MLRMCL
---output: a file where each line corresponds to a cluster number. On each line is a list of the proteins that 
-belong to this cluster. Proteins are indicated with a number/id based on the file BioGRID_AGaser_graph_mapping
+	--OUTPUT: a file where each line corresponds to a cluster number. On each line is a list of the proteins that belong to this cluster. Proteins are indicated with a number/id based on the file BioGRID_AGaser_graph_mapping
 
 
+====================================================================================
 
 II. MLR-CAw File Outputs Naming Conventions
+
+====================================================================================
 
 Each file begins with a "b" or a "d", depending if the clustering was on BioGRID or DIP.
 
@@ -70,7 +98,11 @@ One run of clustering the BioGRID file will result in the ff. files:
 	bsct<value>a<value>g<value>: the CAw result with computed FScores and matched clusters
 
 
+====================================================================================
+
 III. Scoring Package
+
+====================================================================================
 
 A. Four Scenarios
 --To do four scenarios, run the script "fourscenarios.sh"
@@ -93,9 +125,3 @@ A. Four Scenarios
 		1) the output file from MLRCAw
 		2) the mapping of the proteins to their ids (BioGRID_AGAser etc etc)
 		3) the version of CYC you want to use (or basically any listing of complexes and their proteins based on experimental data)
-
-
-
-IV. Formatting for Cytoscape/Gephi:
---To convert the CAw result to a format readable by Cytoscape/Gephi, run CytoConverter (this is still raw)
---Naming convention used here is the same, except resulting file begins w/ "v" (visualization)
