@@ -16,6 +16,8 @@ else
 	echo "Begin clustering."
 	echo "Computing FSWeights at $threshold threshold..."
 
+	mkdir -p clustering
+	mkdir -p thresholdfiles
 
 	./$FSE "${name}" "${name}t${threshold}" "./clustering/${name}mt${threshold}" ${threshold}
 		
@@ -29,8 +31,9 @@ else
 	echo "Finished MLRMCL. Now running CAw..."
 	./$CAE -a "${alpha}" -g "${gamma}" "${name}t${threshold}" "./clustering/${name}ct${threshold}" "./scoring/${name}pt${threshold}a${alpha}g${gamma}"
 
-	#cd ../
 	echo "Finished CAw. Clustering complete."
 
-	#clean up!
+	#clean up
+	
+	mv "${name}t${threshold}" "./thresholdfiles/${name}t${threshold}"
 fi

@@ -2,11 +2,11 @@ README
 
 Last updated: May 10, 2015
 
-==================================================================================
+===================================================================================
 
 Quick start/TL;DR Section (for you impatient ones :D )
 
-==================================================================================
+===================================================================================
 
 
 1) To compile the needed files for running MLR-CAw, run Make.
@@ -15,6 +15,7 @@ Quick start/TL;DR Section (for you impatient ones :D )
 
 3) To cluster a file using MLR-CAw, run the shell script "mlrcaw.sh". Command-line arguments are:
 		1) input file: name of the input file of the PPIN dataset
+			-- We included copies of the datasets we used (the "biogrid" and "dip" files)
 		2) threshold: threshold value to use for FS-weighting
 		3) alpha: alpha value to use in CAw scheme
 		4) gamma: gamma value to use in CAw scheme
@@ -23,6 +24,7 @@ Quick start/TL;DR Section (for you impatient ones :D )
 		ex. If the PPIN dataset is a file named "proteins", and mlrcaw was run with threshold = 0.2, alpha = 1.0, gamma = 3.0, 
 		the clustering output will be a file named "proteinspt0.2a1.0g3.0"
 	-- For more on this, see Part II on the Naming Conventions. 
+	-- This file will be saved in the "scoring" folder
 
 	-- If there is a problem with running the MLRMCL portion of the script, check to see that you have the appropriate MLRMCL version placed in the "bin" directory (see Part I , at the MLRMCL for more details)
 
@@ -35,11 +37,11 @@ Quick start/TL;DR Section (for you impatient ones :D )
 5) To score the output of MLR-CAw under your own scenarios, or to score using other literature (not BioGRID or DIP), you can independently run FScoring or FScoringInc. FScoring however excludeds NAN clusters from the average F-score, while FScoringInc includes them. (See FScoring Package for more details)
 
 
-===================================================================================
+====================================================================================
 
 I. The Components of MLR-CAw 
 
-===================================================================================
+====================================================================================
 
 MLR-CAw is composed of the following components: 
 
@@ -51,7 +53,9 @@ A. FSWeighting
 		--sample input to this is biogrid.in
 	--OUTPUT: this will give 2 files:
 		1) a resulting network file with weights (usually named with "t<somevalue>" at the end, see Part II Naming Conventions)
+			-- this output file will be saved in the folder "thresholdfiles" at the end of the MLR-CAw run
 		2) another network file formatted for MLRMCL (usually named with "mt<somevalue>" at the end, see Part II Naming Conventions)
+			-- this output file will be saved in the folder "clustering" at the end of the MLR-CAw run
 
 
 B. MLRMCL
@@ -63,6 +67,7 @@ B. MLRMCL
 	
 	--INPUT: the output file #2 from FSWeighting (usually named with "mt<somevalue>" at the end, see Part II Naming Conventions)
 	--OUTPUT: a file where each line indicates the cluster number that the nth line/protein belongs to (usually named with "ct<somevalue>" at the end, see Part II Naming Conventions)
+		-- this output file will be saved in the folder "clustering" at the end of the MLR-CAw run
 
 
 C. CAw
@@ -73,7 +78,8 @@ C. CAw
 	--INPUTS: 
 		1) the network file with weights (output file #1 from FSWeighting)
 		2) the clustering file resulting from MLRMCL
-	--OUTPUT: a file where each line corresponds to a cluster number. On each line is a list of the proteins that belong to this cluster. Proteins are indicated with a number/id based on the file BioGRID_AGaser_graph_mapping
+	--OUTPUT: a file where each line corresponds to a cluster number. On each line is a list of the proteins that belong to this cluster. Proteins are indicated with a number/id based on the mapping files (BioGRID_AGaser_graph_mapping, and DIP_AGaser_graph_mapping for BioGRID and DIP datasets respectively)
+		-- this file can be found in the folder "scoring" at the end of the MLR-CAw run 
 
 
 ====================================================================================
@@ -125,3 +131,29 @@ A. Four Scenarios
 		1) the output file from MLRCAw
 		2) the mapping of the proteins to their ids (BioGRID_AGAser etc etc)
 		3) the version of CYC you want to use (or basically any listing of complexes and their proteins based on experimental data)
+
+
+====================================================================================
+
+IV. Varying Parameters Scripts
+
+====================================================================================
+
+In the varyingparameters folder are the .cpp and script files we used for testing the best parameter values for threshold, alpha, and gamma values, as discussed in the manuscript of our thesis.
+
+A. scenarioalgac.sh
+	--This script varies the value of alpha OR gamma given a particular threshold. 
+		--Alpha is varied from 1 to 20 with a stepsize of 0.5 (results in 39 files)
+		--Gamma is varied from 0.05 to 5 with a stepsize of 0.05 (results in 100 files)
+	--Note that this script needs all the files of the MLR-CAw (ie, FSWeight, mlrmcl, CAw, FScoring, and FScoringInc)
+	--It does not make use of the mlrcaw.sh script; hence, to use it, you need to make sure that copies of the 6 .exe files mentioned (FSWeight, mlrmcl, CAw, FScoring, and FScoringInc) exist in the same directory. 
+
+	--INPUTS:
+		1) b or d: if the dataset to use is BioGRID or DIP
+		2) a or g: specify a, if you want to vary alpha, or g if you want to vary gamma
+		3) threshold value: the threshold value to use while varying one parameter.
+		4) other value: the value to use for the other parameter not being varied ( this will be gamma if you're varying alpha, alpha if you're varying gamma)
+
+	--OUTPUTS:
+		1) Scored files of all 4 scenarios for each MLR-CAw run (ie, for all parameter "tuples"). Scored files will be placed in the folder "outputs"
+		2) Raw output files of each MLR-CAw run. Raw output files are placed in the folder "rawoutputs"
