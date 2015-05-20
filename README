@@ -1,7 +1,17 @@
 README
 
-Last updated: May 10, 2015
+Last updated: May 20, 2015
 
+This README serves as the main documentation for this work. "Sub-README"s can be found in some of the folders in this work. These "sub-README"s just echo what is mentioned in this documentation for super awesomeness documentation purposes (and also to give a push in the right direction if anyone gets lost)
+
+___  ___ _     ______       _____   ___  _    _ 
+|  \/  || |    | ___ \     /  __ \ / _ \| |  | |
+| .  . || |    | |_/ /_____| /  \// /_\ \ |  | |
+| |\/| || |    |    /______| |    |  _  | |/\| |
+| |  | || |____| |\ \      | \__/\| | | \  /\  /
+\_|  |_/\_____/\_| \_|      \____/\_| |_/\/  \/ 
+                                                
+                                                
 ===================================================================================
 
 Quick start/TL;DR Section (for you impatient ones :D )
@@ -15,7 +25,7 @@ Quick start/TL;DR Section (for you impatient ones :D )
 
 3) To cluster a file using MLR-CAw, run the shell script "mlrcaw.sh". Command-line arguments are:
 		1) input file: name of the input file of the PPIN dataset
-			-- We included copies of the datasets we used (the "biogrid" and "dip" files)
+			-- We included copies of the datasets we used (the "biogrid" and "dip" files in the graphs folder)
 		2) threshold: threshold value to use for FS-weighting
 		3) alpha: alpha value to use in CAw scheme
 		4) gamma: gamma value to use in CAw scheme
@@ -111,7 +121,7 @@ III. Scoring Package
 ====================================================================================
 
 A. Four Scenarios
---To do four scenarios, run the script "fourscenarios.sh"
+--To do four scenarios, run the script "fourscenarios.sh" found in the scoring folder
 --This calculates the FScore under four scenarios:
 	
 	Scenario A: Include NAN clusters in calculation, Use a tailored version of CYC (eliminates proteins not in biogrid/dip from CYC)
@@ -129,13 +139,29 @@ A. Four Scenarios
 	--Both can be called individually outside the shell script if you want to define your own scenarios or indicate specific files
 	--Inputs to both are: 
 		1) the output file from MLRCAw
-		2) the mapping of the proteins to their ids (BioGRID_AGAser etc etc)
+		2) the mapping of the proteins to their ids (BioGRID_AGAser_graph_mapping)
 		3) the version of CYC you want to use (or basically any listing of complexes and their proteins based on experimental data)
+
+====================================================================================
+
+IV. Scoring Results Related to Thesis Manuscript
+
+====================================================================================
+
+In the scoring folder, there are also folders containing the results (raw output and scored results) of the various methods we ran over the two datasets we used in this work. 
+
+The raw output files give the list of the predicted complexes resulting from running a method. Each line corresponds to one predicted complex. Numbers on each line are the protein IDs, as based on the mapping files provided (BioGRID_AGAser_graph_mapping and DIP_AGaser_graph_mapping)
+
+
+The scored results give the list of predicted complexes as based on the raw output file, but with their associated complex name as based on the maximal F-score mapped to the complex (see the thesis manuscript for more details). The maximal F-score is also given per line. The last line gives the average F-score of the clustering result.  
+
+
+For further details, see the README file within the scoring folder.
 
 
 ====================================================================================
 
-IV. Varying Parameters Scripts
+V. Tuning Parameter Values Scripts
 
 ====================================================================================
 
@@ -145,9 +171,10 @@ A. scenarioalgac.sh
 	--This script varies the value of alpha OR gamma given a particular threshold. 
 		--Alpha is varied from 1 to 20 with a stepsize of 0.5 (results in 39 files)
 		--Gamma is varied from 0.05 to 5 with a stepsize of 0.05 (results in 100 files)
-	--Note that this script needs all the files of the MLR-CAw (ie, FSWeight, mlrmcl, CAw, FScoring, and FScoringInc)
-	--It does not make use of the mlrcaw.sh script; hence, to use it, you need to make sure that copies of the 6 .exe files mentioned (FSWeight, mlrmcl, CAw, FScoring, and FScoringInc) exist in the same directory. 
-
+	--Note that this script needs all the files of the MLR-CAw (ie, FSWeight, mlrmcl, CAw)
+	--It does not make use of the mlrcaw.sh script; hence, to use it, you need to make sure that copies of the 3 .exe files mentioned (FSWeight, mlrmcl, CAw) exist in the same directory. 
+	--This script also scores all outputs resulting from varying the alpha or gamma parameter using the FScoringParams and FScoringIncParams (source files of the two can be found in the src folder). For more details on how these files score the output results differently, see Section B.  
+	
 	--INPUTS:
 		1) b or d: if the dataset to use is BioGRID or DIP
 		2) a or g: specify a, if you want to vary alpha, or g if you want to vary gamma
@@ -157,3 +184,11 @@ A. scenarioalgac.sh
 	--OUTPUTS:
 		1) Scored files of all 4 scenarios for each MLR-CAw run (ie, for all parameter "tuples"). Scored files will be placed in the folder "outputs"
 		2) Raw output files of each MLR-CAw run. Raw output files are placed in the folder "rawoutputs"
+
+
+B. FScoringParams and FScoringIncParams
+	--These are scoring executable files tailored specifically for varying parameter values. 
+	--These executable files write all tuples (average F-score, average precision, average recall, geometric mean, and number of output complexes) to only one file for convenience. The name of the output file is the same as the original FScoring files (ie, appends "scenarioA", "scenarioB", "scenarioC", or "scenarioD" to the name of the file to be scored)
+		--The output file has 8 columns:
+	Threshold Value | Alpha Value | Gamma Value | Average F-score | Average Precision | Average Recall | Geometric Mean | Number of Output Clusters
+		--Basically, each line gives the average F-score, average precision, average recall, geometric mean, and number of output clusters corresponding to each tuple of paramter values.

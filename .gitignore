@@ -20,5 +20,6 @@ alphagamma/*
 fourscenariosresults.zip
 scoring/checker/*
 scoring/myruns/*
+scoring/mlrmclfs/*
 varyingparamsorig/*
 varyingparamsscenario/*

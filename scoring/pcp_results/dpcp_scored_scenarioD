@@ -1,0 +1,728 @@
+anaphase-promoting complex   0.814815
+mitochondrial processing peptidase complex   1.000000
+oligosaccharyl transferase complex   0.705882
+Nuclear exosome complex   0.960000
+mRNA cleavage and polyadenylation specificity factor complex   0.742857
+COMPASS complex   1.000000
+AP-2 adaptor complex   0.857143
+Elongator complex   0.857143
+19/22S regulator   0.833333
+serine C-palmitoyltransferase complex   0.500000
+retromer complex   1.000000
+GARP complex   0.727273
+Ndc80p complex   0.285714
+TRAPP complex   0.909091
+alpha DNA polymerase:primase complex   0.857143
+SAS Complex   0.750000
+ESCRT II complex   0.857143
+NAN!   0.000000
+Sum1p/Rfm1p/Hst1p complex   0.800000
+AP-3 adaptor complex   0.857143
+HOPS complex   0.625000
+HMC Complex   0.250000
+Set3p complex   0.480000
+mitochondrial inner membrane protein insertion complex   0.800000
+chaperonin-containing T-complex   0.727273
+DNA polymerase delta complex   1.000000
+"alpha-1,6-mannosyltransferase complex(Anp1p/Mnn9p)"   0.727273
+carboxy-terminal domain protein kinase complex   0.571429
+COPII   0.500000
+Cytochrome c oxidase (complex IV)   0.142857
+Arp2/3 protein complex   0.521739
+Nup82 nuclear pore subcomplex   0.333333
+DNA replication factor C complex (Ctf18p/Ctf8p/dcc1p)   0.631579
+eIF3   0.521739
+AP-1 adaptor complex   0.800000
+"H+-transporting ATPase, Golgi"   0.666667
+cohesin loading factor complex   0.666667
+Noc1p/Noc2p complex   0.100000
+Kornberg's mediator (SRB) complex   0.808511
+NAN!   0.000000
+Golgi transport complex   0.588235
+NuA4 histone acetyltransferase complex   0.700000
+Prp19-associated complex   0.551724
+NatC complex   1.000000
+Exocyst complex   0.769231
+Dsl1p complex   0.600000
+FBP degradation complex   0.769231
+transcription factor TFIID complex   0.615385
+U1 snRNP complex   0.615385
+THO complex   0.727273
+COPI   0.480000
+Sno1p/Snz1p complex   0.444444
+DNA polymerase epsilon complex   0.615385
+CCR4-NOT core complex   0.620690
+m-AAA complex   0.500000
+NAN!   0.000000
+NAN!   0.000000
+signal peptidase complex   0.038217
+eIF4F   0.142857
+Mcm2-7 complex   0.923077
+ubiquitin conjugating enzyme complex   0.666667
+Cdc73p/Paf1p complex   0.344828
+F0/F1 ATP synthase (complex V)   0.756757
+carboxy-terminal domain protein kinase complex   0.200000
+Gyl1p/Gyp5p complex   0.250000
+Tap42p/Pph21p/Rrd2p complex   0.600000
+Nsp1p complex   0.250000
+"actin cytoskeleton-regulatory complex, Pan1p/Sla1p/End3p complex"   0.190476
+20S proteasome   0.727273
+mitotic checkpoint complex   0.200000
+HMC Complex   0.050847
+mitochondrial pyruvate dehydrogenase complex   0.166667
+RNA polymerase I upstream activating factor complex   0.166667
+eIF2B   0.312500
+SWI/SNF complex   0.640000
+TRAMP complex (Air1p)   0.222222
+Ski Complex   1.000000
+mitochondrial ribosomal small subunit   0.646154
+NAN!   0.000000
+NAN!   0.000000
+Nup84p complex   0.258065
+mitochondrial ribosomal small subunit   0.057143
+NAN!   0.000000
+ARGR complex   0.615385
+UTP A complex   0.238095
+ubiquitin ligase ERAD-M complex   0.800000
+Ku complex   0.028777
+SAGA complex   0.250000
+peroxin docking complex   0.333333
+U6 snRNP complex   0.313725
+RSC complex   0.444444
+NAN!   0.000000
+NatA complex   0.500000
+NAN!   0.000000
+Tim8p/Tim13p complex   0.400000
+nucleotide-excision repair factor 3 complex   0.363636
+prefoldin complex   0.833333
+mitochondrial outer membrane translocase complex   0.400000
+signalosome complex   0.833333
+karyopherin docking subcomplex of the Nuclear Pore Complex (NPC)   0.571429
+transcription factor TFIIE complex   1.000000
+cytoplasmic ribosomal small subunit   0.033898
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+Cytochrome c oxidase (complex IV)   0.153846
+NuA3 histone acetyltransferase complex   0.285714
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+VTC heterotetrameric complex   0.333333
+NAN!   0.000000
+cytoplasmic ribosomal small subunit   0.033898
+NAN!   0.000000
+NAN!   0.000000
+EGO complex   0.800000
+smc5p-Smc6p complex   0.200000
+NAN!   0.000000
+NAN!   0.000000
+Chz1p/Htz1p/Htb1p complex   0.400000
+ISW1a complex   0.500000
+NAN!   0.000000
+SWI/SNF complex   0.133333
+CBF3 complex   0.400000
+Gac1p/Glc7p complex   0.222222
+Rpd3L complex   0.769231
+Vam3p/Vam7 vacuolar tSNARE complex   0.125000
+NAN!   0.000000
+COMA complex   0.250000
+mitochondrial ribosomal large subunit   0.702703
+SCF-CDC4 complex   0.434783
+Esp1p/Pds1p complex   0.200000
+MRX complex   0.222222
+NAN!   0.000000
+Erv41p/Erv46p complex   0.400000
+Mob2p/Cbk1p complex   0.333333
+NAN!   0.000000
+NAN!   0.000000
+Atg20p/Snx4p/Snx41p complex   0.080000
+SNARE complex   0.222222
+NAN!   0.000000
+smc5p-Smc6p complex   0.100000
+Cdc42p/Ste20p complex   0.222222
+phosphatidylinositol (PtdIns) 3-kinase complex (functions in CPY sorting)   0.400000
+TORC 2 complex   0.533333
+NAN!   0.000000
+mitochondrial pyruvate dehydrogenase complex   0.117647
+MBF complex   0.285714
+Gcn1p/Gcn20p complex   0.666667
+NAN!   0.000000
+NAN!   0.000000
+smc5p-Smc6p complex   0.181818
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+Snf1p/Snf4p/Gal83p complex   0.266667
+U4/U6 x U5 tri-snRNP complex   0.062500
+transcription factor TFIIIC complex   0.545455
+methionyl glutamyl tRNA synthetase complex   0.285714
+Nucleosomal protein complex   0.444444
+Ndc80p complex   0.240000
+Mad1p/Mad2p complex   0.500000
+cytoplasmic ribosomal large subunit   0.068966
+NAN!   0.000000
+MSH2p/MSH6p complex   0.400000
+Exocyst complex   0.166667
+DNA-directed RNA polymerase III complex   0.535714
+NAN!   0.000000
+NAN!   0.000000
+OCA complex   0.500000
+NAN!   0.000000
+NAN!   0.000000
+Rsp5p/Bul1 ubiquitin ligase complex   0.333333
+TORC 2 complex   0.428571
+NAN!   0.000000
+NAN!   0.000000
+cAMP-dependent protein kinase   0.666667
+Synaptonemal complex (SC)   0.400000
+NAN!   0.000000
+NAN!   0.000000
+DNA replication factor C complex (Ctf18p/Ctf8p/dcc1p)   0.200000
+NAN!   0.000000
+Swh1p/Nvj1p complex   0.400000
+PAM complex   0.222222
+NAN!   0.000000
+OCA complex   0.444444
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+ISW1b complex   0.333333
+Ctf3p protein complex   0.333333
+NAN!   0.000000
+NAN!   0.000000
+Bud14p/Glc7p complex   0.400000
+NAN!   0.000000
+NAN!   0.000000
+calcineurin complex   0.333333
+NAN!   0.000000
+NAN!   0.000000
+ubiquitin ligase ERAD-L complex   0.250000
+RSC complex   0.095238
+nucleotide-excision repair factor 2 complex   0.250000
+Prp9p/Prp11p/Prp21p complex(SF3a complex)   0.250000
+MRX complex   0.166667
+PAM complex   0.307692
+Clathrin   0.400000
+Sgv1p/Bur2p complex   0.800000
+tRNA-intron endonuclease complex   0.421053
+gamma-tubulin complex   0.190476
+HAT-B complex   0.666667
+NAN!   0.000000
+STE5-MAPK complex   0.666667
+NAN!   0.000000
+6-phosphofructokinase complex   0.222222
+transcription factor TFIIF complex   0.285714
+histone deacetylase complex   0.571429
+Hym1p/Kic1p/Sog2p complex   0.200000
+Ino2p/Ino4p basic helix-loop-helix heteromeric complex   0.285714
+CCAAT-binding factor complex   0.200000
+SPB components   0.533333
+cytoplasmic ribosomal large subunit   0.022989
+RecQ helicase-Topo III complex   0.400000
+nuclear ubiquitin ligase complex   0.222222
+NAN!   0.000000
+NAN!   0.000000
+Met4p/Met28p/Met31p complex   0.571429
+NAN!   0.000000
+Phenylalaninine-tRNA-ligase   0.800000
+mitochondrial ribosomal large subunit   0.041667
+Atg20p/Snx4p/Snx41p complex   0.285714
+Far3p/Far7p/Far8p/Far9p/Far10p/Far11p complex   0.200000
+Rix1p complex   0.285714
+NAN!   0.000000
+heterodimeric G-protein complex   0.333333
+"1,3-beta-glucan synthase complex (Fks1p/Rho1p)"   0.333333
+DASH complex   0.380952
+NAN!   0.000000
+Set3p complex   0.125000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+Dpb11p/Sld2p complex   0.181818
+NAN!   0.000000
+Nonsense-mediated mRNA decay pathway complex   0.750000
+UDP-N-acetylglucosamine transferase complex   0.333333
+NAN!   0.000000
+Reg2p/Glc7p complex   0.133333
+NAN!   0.000000
+cytoplasmic ribosomal large subunit   0.023256
+NAN!   0.000000
+NAN!   0.000000
+mRNA cleavage factor complex (CFI)   0.142857
+Sfb3p/Sec23p complex   0.125000
+Sec61p translocon complex   0.222222
+NAN!   0.000000
+methionyl glutamyl tRNA synthetase complex   0.148148
+ESCRT III complex   0.181818
+NAN!   0.000000
+NAN!   0.000000
+cytoplasmic ribosomal large subunit   0.023810
+monopolin complex   0.444444
+cytoplasmic ribosomal small subunit   0.032258
+nucleolar ribonuclease P complex   0.142857
+Cbp1p/Pet309p complex   0.222222
+Mei5p/Sae3p complex   0.250000
+Ino80p complex   0.111111
+NAN!   0.000000
+NAN!   0.000000
+Sko1p/Cyc8p/Tup1 repressor complex   0.500000
+Car1p/Arg3p complex   0.025000
+transcription export complex   0.133333
+Mtk1p/Pbp1p complex   0.095238
+ribonucleoside-diphosphate reductase complex   0.181818
+F0/F1 ATP synthase (complex V)   0.083333
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+GPI-anchor transamidase complex   0.222222
+NAN!   0.000000
+Mdm12p/Mmm1p/Mdm10p complex   0.181818
+Nucleosomal protein complex   0.142857
+ESCRT I complex   0.600000
+"1,3-beta-glucan synthase complex (Fks1p/Rho1p)"   0.153846
+Hop2p/Mnd1p complex   0.333333
+mitochondrial pyruvate dehydrogenase complex   0.129032
+NAN!   0.000000
+NAN!   0.000000
+Ntr1p/Ntr2p/Prp43p complex   0.133333
+Signal recognition particle (SRP)   0.500000
+Far3p/Far7p/Far8p/Far9p/Far10p/Far11p complex   0.166667
+NAN!   0.000000
+NuA3 histone acetyltransferase complex   0.153846
+transcription factor TFIIH complex   0.272727
+"alpha,alpha-trehalose-phosphate synthase complex (UDP-forming)"   0.333333
+Succinate dehydrogenase complex (complex II)   0.444444
+NAN!   0.000000
+RNA Degradation Complex   0.400000
+Hse1p/Vps27p complex   0.571429
+Sec62p/Sec63p complex   0.428571
+Png1p/Rad23p complex   0.222222
+Mlh1p/Mlh2p complex   0.222222
+GSH degradosomal complex   0.222222
+NAN!   0.000000
+Dcs1p/Dcs2 heterodimer   0.200000
+NAN!   0.000000
+Ume6p/Ime1p complex   0.153846
+GINS complex   0.666667
+Cdc48p complex   0.400000
+DNA-directed RNA polymerase II complex   0.230769
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+transcription factor TFIIIC complex   0.500000
+NAN!   0.000000
+NAN!   0.000000
+OAF complex   1.000000
+NAN!   0.000000
+Nem1p/Spo7p complex   1.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+degradosome   0.500000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+Mtr2p/Mex67p complex   0.500000
+NAN!   0.000000
+"alpha,alpha-trehalose-phosphate synthase complex (UDP-forming)"   0.333333
+dynactin complex   0.333333
+NAN!   0.000000
+Grh1p/Bug1p complex   0.400000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+PAM complex   0.250000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+U4/U6 x U5 tri-snRNP complex   0.064516
+mitochondrial outer membrane translocase complex   0.222222
+NAN!   0.000000
+NuA3 histone acetyltransferase complex   0.285714
+NAN!   0.000000
+NAN!   0.000000
+Gcd10p/Gcd14p complex   0.400000
+NAN!   0.000000
+NAN!   0.000000
+cytoplasmic ribosomal large subunit   0.024096
+"Cytochrome bc1 complex (Ubiquinol-cytochrome c reductase complex, complex III)"   0.142857
+SNARE complex   0.333333
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+i-AAA complex   0.400000
+eEF1   0.250000
+Sec61p translocon complex   0.333333
+NAN!   0.000000
+smc5p-Smc6p complex   0.181818
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+cytoplasmic ribosomal small subunit   0.033898
+NAN!   0.000000
+NAN!   0.000000
+TORC 1 complex   0.750000
+NAN!   0.000000
+Bni4p/Glc7p complex   0.400000
+Rpd3S complex   0.181818
+anaphase-promoting complex   0.095238
+GPI-anchor transamidase complex   0.181818
+nucleolar ribonuclease P complex   0.142857
+cytoplasmic ribosomal large subunit   0.023810
+phosphatidylinositol (PtdIns) 3-kinase complex (functions in CPY sorting)   0.080000
+histone H2A phosphatase complex   0.500000
+U2 snRNP complex   0.074074
+Ubp3p/Bre5p complex   0.571429
+NAN!   0.000000
+Protein O-mannosyltransferase(Pmt1p/Pmt2p)   0.333333
+NAN!   0.000000
+adenylyl cyclase complex   0.571429
+GET complex   0.300000
+U5 snRNP complex   0.086957
+NAN!   0.000000
+Fatty Acid Import Complex   0.166667
+cytoplasmic ribosomal small subunit   0.093750
+NAN!   0.000000
+NAN!   0.000000
+Cdc7p/Dbf4p complex   0.117647
+Sap190p/Sit4p complex   0.142857
+PAN complex   0.111111
+NAN!   0.000000
+heterotrimeric G-protein complex   0.285714
+cytoplasmic dynein complex   0.181818
+Uba2p/Aos1p complex   0.666667
+mitochondrial inner membrane peptidase complex   0.181818
+UTP A complex   0.133333
+nuclear condensin complex   0.100000
+NAN!   0.000000
+NAN!   0.000000
+mitochondrial pyruvate dehydrogenase complex   0.133333
+SNARE complex   0.200000
+Slx5p/Slx8p complex   0.035088
+Mtr2p/Mex67p complex   0.250000
+Rsp5p/Bul2 ubiquitin ligase complex   0.250000
+Permease-Oxidase Complex   0.037736
+Origin recognition complex   0.112150
+NAN!   0.000000
+RENT complex   0.285714
+NAN!   0.000000
+NAN!   0.000000
+Rot2p/Gtb1p complex   0.333333
+Snf1p/Snf4p/Gal83p complex   0.250000
+Mtk1p/Pbp1p complex   0.400000
+NAN!   0.000000
+Protein O-mannosyltransferase(Pmt1p/Pmt2p)   0.117647
+Nup84p complex   0.166667
+Holliday junction resolvase complex   0.181818
+RNA polymerase I transcription factor complex   0.444444
+chromatin assembly complex   0.571429
+Ino80p complex   0.074074
+Dop1p/Mon2p complex   0.200000
+FBP degradation complex   0.051948
+"actin cytoskeleton-regulatory complex, Pan1p/Sla1p/End3p complex"   0.040816
+palmitoyltransferase complex   0.085106
+Rtg1p/Rtg3p complex   0.400000
+DASH complex   0.250000
+NAN!   0.000000
+NAN!   0.000000
+phosphatidylinositol (PtdIns) 3-kinase complex (functions in autophagy)   0.250000
+anaphase-promoting complex   0.095238
+Bub1p/Bub3p complex   0.285714
+GSH degradosomal complex   0.571429
+NAN!   0.000000
+NAN!   0.000000
+"Arg2p/Arg5,6p complex"   0.666667
+adoMet-dependent tRNA methyltransferase (Mtase) Complex   0.333333
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+Protein O-mannosyltransferase(Pmt3p/Pmt5p)   0.142857
+mitochondrial oxoglutarate dehydrogenase complex   0.333333
+transcription factor TFIIA complex   0.076923
+NC2 complex   0.100000
+Mto1p/Mss1p complex   0.222222
+Pho85p/Pcl2p complex   0.111111
+Swr1p complex   0.025157
+GAL3p/GAL80p complex   0.285714
+NAN!   0.000000
+NAN!   0.000000
+Decapping Enzyme Complex   0.111111
+acetolactate synthase complex   0.142857
+NAN!   0.000000
+mitochondrial ribosomal large subunit   0.040000
+NAN!   0.000000
+"Cytochrome bc1 complex (Ubiquinol-cytochrome c reductase complex, complex III)"   0.100000
+NAN!   0.000000
+prefoldin complex   0.153846
+NAN!   0.000000
+NAN!   0.000000
+Cox14p/Cox1p/Mss51p complex   0.333333
+CURI complex   0.222222
+Rot2p/Gtb1p complex   0.080000
+Mgm1p/Ugo1p/Fzo1p complex   0.142857
+NAN!   0.000000
+NAN!   0.000000
+CCAAT-binding factor complex   0.400000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+GCR complex   0.800000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+"alpha-1,6-mannosyltransferase complex(Van1p/Mnn9p)"   0.060606
+Pxa1p/Pxa2p complex   0.250000
+Sur1p/Csg2p complex   0.055556
+NAN!   0.000000
+NAN!   0.000000
+RNA polymerase I transcription factor complex   0.076923
+cytoplasmic ribosomal large subunit   0.022989
+cytoplasmic ribosomal small subunit   0.030769
+NAN!   0.000000
+NAN!   0.000000
+"alpha,alpha-trehalose-phosphate synthase complex (UDP-forming)"   0.333333
+Tof1p/Mrc1p/Csm3p complex   0.060606
+NAN!   0.000000
+CAAX-protein geranylgeranyltransferase complex   0.400000
+NAN!   0.000000
+Sac3p/Thp1p complex   0.250000
+Atg20p/Snx4p/Snx41p complex   0.166667
+Cbf1p/Met4p/Met28p complex   0.080000
+Chs5p/Arf-1binding proteins (ChAPs)   0.133333
+UTP A complex   0.166667
+nascent polypeptide-associated complex   0.333333
+NAN!   0.000000
+mRNA cleavage factor complex (CFI)   0.222222
+cytoplasmic ribosomal large subunit   0.023810
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+Ctf3p protein complex   0.571429
+Telomerase   0.571429
+cytoplasmic ribosomal large subunit   0.022727
+nucleolar ribonuclease P complex   0.800000
+Cdc28p/Clb5p complex   0.400000
+NAN!   0.000000
+NAN!   0.000000
+mitochondrial ribosomal large subunit   0.041667
+Psr1p/Whi2p complex   0.333333
+NAN!   0.000000
+Rtt109p/Vps75p complex   0.400000
+MSH2p/MSH3p complex   0.250000
+20S proteasome   0.117647
+NAN!   0.000000
+Png1p/Rad23p complex   0.285714
+glycosylphosphatidylinositol-N-acetylglucosaminyltransferase (GPI-GnT) complex   0.117647
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+SF3b complex   0.222222
+polarisome complex   0.222222
+Nfs1p/Isd11p complex   0.285714
+RecQ helicase-Topo III complex   0.250000
+NAN!   0.000000
+NAN!   0.000000
+19/22S regulator   0.083333
+Rad6p/Rad18p complex   0.333333
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+smc5p-Smc6p complex   0.200000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+Shq1p/Naf1p complex   0.500000
+NAN!   0.000000
+RES complex   0.400000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+Tof1p/Mrc1p/Csm3p complex   0.800000
+mitochondrial ribosomal small subunit   0.058824
+NAN!   0.000000
+NAN!   0.000000
+ribonuclease H2 complex   0.800000
+glycosylphosphatidylinositol-N-acetylglucosaminyltransferase (GPI-GnT) complex   0.250000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+signal recognition particle receptor complex   0.500000
+NAN!   0.000000
+Dsl1p complex   0.500000
+NAN!   0.000000
+Swr1p complex   0.133333
+NAN!   0.000000
+NAN!   0.000000
+Sec61p translocon complex   0.400000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+cytoplasmic ribosomal large subunit   0.023810
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+Cytochrome c oxidase (complex IV)   0.428571
+mitochondrial ribosomal large subunit   0.042553
+NAN!   0.000000
+U5 snRNP complex   0.117647
+NAN!   0.000000
+NAN!   0.000000
+Geranylgeranyltransferase II (GGTase II)   0.333333
+CURI complex   0.400000
+Psr1p/Whi2p complex   0.666667
+Dcs1p/Dcs2 heterodimer   0.666667
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+commitment complex   0.090909
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+cytoplasmic ribosomal large subunit   0.024390
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+HIR complex   0.400000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+DSIF complex   0.666667
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+mitochondrial outer membrane translocase complex   0.250000
+NAN!   0.000000
+NAN!   0.000000
+Esp1p/Pds1p complex   0.666667
+anthranilate synthase complex   0.666667
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+tRNA Methyltransferase Complex   0.666667
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+transcription factor TFIIIC complex   0.285714
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+prohibitin complex   0.666667
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+Met4p/Met28p/Met32p complex   0.500000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+NAN!   0.000000
+Average Fscore: 0.266670

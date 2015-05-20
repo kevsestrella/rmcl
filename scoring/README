@@ -1,0 +1,16 @@
+README (Documentation for this folder)
+
+This folder contains the files needed in the scoring package we used to score the results of clustering methods.
+
+It also has folders containing the clustering results of the methods we ran on the BioGRID and DIP datasets as described in our thesis manuscript. The folders are:
+
+	1) hybrid_results: the folder containing the results of the hybrid method (mlrcaw.sh) on both datasets
+	2) mlrmcl_results: the folder containing the results of the mlrmcl with balance parameter method on both datasets
+	3) coach_results: the folder containing the results of the COACH method on both datasets
+	4) pcp_results: the folder containing the results of the PCP method on both datasets
+
+Inside each folder includes the raw result files and the scored files (files ending with an A, B, C, or D, depending on the scenario under which the raw result file was scored).
+
+To score a clustering result with the BioGRID or DIP dataset, you may use the "fourscenarios.sh" script. This script can only be used for scoring results from clustering BioGRID and DIP datasets. To score results from clustering other datasets, run FScoring or FScoringInc separately on these results (see the README in the root folder for more details).
+
+The Makefile in this folder is used to compile FScoring and FScoringInc. 
