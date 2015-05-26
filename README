@@ -1,6 +1,6 @@
 README
 
-Last updated: May 20, 2015
+Last updated: May 26, 2015
 
 This README serves as the main documentation for this work. "Sub-README"s can be found in some of the folders in this work. These "sub-README"s just echo what is mentioned in this documentation for super awesomeness documentation purposes (and also to give a push in the right direction if anyone gets lost)
 
@@ -166,6 +166,8 @@ V. Tuning Parameter Values Scripts
 ====================================================================================
 
 In the varyingparameters folder are the .cpp and script files we used for testing the best parameter values for threshold, alpha, and gamma values, as discussed in the manuscript of our thesis.
+
+In the same folder, we also placed a folder named "results". This folder contains all the raw output and scored output files of each run of the hybrid algorithm done in order to tune the parameters to their best values. The files are numerous, but we just included them for completeness' sake, in case anyone wants to see the nitty-gritty numbers involved in varying the parameters of each run :) 
 
 A. scenarioalgac.sh
 	--This script varies the value of alpha OR gamma given a particular threshold. 
