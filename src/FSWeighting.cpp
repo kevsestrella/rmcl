@@ -48,14 +48,14 @@ int main(int argc, char **argv) {
     int V, i;
     int Vnew = 0, Enew = 0;
     double navg = 0.0;
-    fscanf(input, "%d", &V);
+    fscanf(input, "%d %*d %*d", &V);
     set<int> G[V];
     vector<edge > Gw[V];
     vector<int> active;
     map<int,int> mapping;
     for(int c = 0; c < V; c++) {
         while(true) {
-            fscanf(input, "%d", &i);
+            fscanf(input, "%d %*d", &i);
             if(i == -1) break;
             G[c].insert(i-1);
         }
