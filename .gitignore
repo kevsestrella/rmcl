@@ -23,3 +23,5 @@ scoring/myruns/*
 scoring/mlrmclfs/*
 varyingparamsorig/*
 varyingparamsscenario/*
+*.DS_Store
+tags

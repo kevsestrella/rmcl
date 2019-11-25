@@ -148,7 +148,7 @@ IV. Scoring Results Related to Thesis Manuscript
 
 ====================================================================================
 
-In the scoring folder, there are also folders containing the results (raw output and scored results) of the various methods we ran over the two datasets we used in this work. 
+In the "hybrid-method-results" folder (comes separately in another ZIP file), there are also folders containing the results (raw output and scored results) of the various methods we ran over the two datasets we used in this work. These files can be found in the folder "comparisonruns"
 
 The raw output files give the list of the predicted complexes resulting from running a method. Each line corresponds to one predicted complex. Numbers on each line are the protein IDs, as based on the mapping files provided (BioGRID_AGAser_graph_mapping and DIP_AGaser_graph_mapping)
 
@@ -156,7 +156,7 @@ The raw output files give the list of the predicted complexes resulting from run
 The scored results give the list of predicted complexes as based on the raw output file, but with their associated complex name as based on the maximal F-score mapped to the complex (see the thesis manuscript for more details). The maximal F-score is also given per line. The last line gives the average F-score of the clustering result.  
 
 
-For further details, see the README file within the scoring folder.
+For further details, see the README file within the hybrid-method-results folder.
 
 
 ====================================================================================
@@ -167,7 +167,7 @@ V. Tuning Parameter Values Scripts
 
 In the varyingparameters folder are the .cpp and script files we used for testing the best parameter values for threshold, alpha, and gamma values, as discussed in the manuscript of our thesis.
 
-In the same folder, we also placed a folder named "results". This folder contains all the raw output and scored output files of each run of the hybrid algorithm done in order to tune the parameters to their best values. The files are numerous, but we just included them for completeness' sake, in case anyone wants to see the nitty-gritty numbers involved in varying the parameters of each run :) 
+We also have a folder named "varyingparameters" in the separate "hybrid-method-results" folder. This folder contains all the raw output and scored output files of each run of the hybrid algorithm done in order to tune the parameters to their best values. The files are numerous, but we just included them for completeness' sake, in case anyone wants to see the nitty-gritty numbers involved in varying the parameters of each run :) 
 
 A. scenarioalgac.sh
 	--This script varies the value of alpha OR gamma given a particular threshold. 

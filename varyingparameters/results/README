@@ -1,7 +1,0 @@
-README
-
-This folder contains:
-
-1) The summarized outputs of each run done in varying the parameter values (files listing average F-scores, average precision, average recall, the geometric mean, and number of output clusters)
-
-2) The raw outputs of each run done in the varying the parameter values (files listing just the raw cluster outputs, where each line is an output cluster listing the index numbers of the proteins belonging to the output cluster)
