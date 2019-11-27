@@ -22,10 +22,11 @@ else
 	./$FSE "${name}" "${name}t${threshold}" "./clustering/${name}mt${threshold}" ${threshold}
 		
 	echo "Finished computing FSWeights. Now running MLRMCL..."
-	#mv "${name}mt${threshold}" bin
-	cd bin
-	./mlrmcl -o "../clustering/${name}ct${threshold}" "../clustering/${name}mt${threshold}"
 
+		#mv "${name}mt${threshold}" bin
+	cd bin
+	#./srmcl -o "../clustering/${name}ct${threshold}" "../clustering/${name}mt${threshold}"
+	./srmcl -o "../clustering/${name}ct${threshold}" "../clustering/${name}mt${threshold}"
 	cd ../
 
 	echo "Finished MLRMCL. Now running CAw..."
@@ -36,4 +37,5 @@ else
 	#clean up
 	
 	mv "${name}t${threshold}" "./thresholdfiles/${name}t${threshold}"
+
 fi

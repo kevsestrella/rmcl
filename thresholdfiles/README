@@ -1,2 +1,0 @@
-This folder contains the intermediary output files of FSWeight (threshold file) as used by a run of mlrcaw.sh
-If this folder is deleted, mlrcaw.sh will simply re-make it.
