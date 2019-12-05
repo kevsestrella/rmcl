@@ -1,8 +1,8 @@
 #!/bin/bash
 FSE=FSWeight
-CAE=CAw
+CAE=CAwmod
 
-
+# Formatted caw is CAWMOD
 
 if [ "$#" -ne 4 ]; then
 	echo "Usage: <input file> <FS threshold> <CAw alpha> <CAw gamma>"
@@ -26,11 +26,12 @@ else
 		#mv "${name}mt${threshold}" bin
 	cd bin
 	#./srmcl -o "../clustering/${name}ct${threshold}" "../clustering/${name}mt${threshold}"
-	./srmcl -o "../clustering/${name}ct${threshold}" "../clustering/${name}mt${threshold}"
+	./srmcl -o "../clustering/${name}ct${threshold}" "../clustering/${name}mt${threshold}" #Trying to remove decimal before running this part
+	#./mlrmcl -o "../clustering/${name}ct${threshold}" "../clustering/${name}mt${threshold}"
 	cd ../
 
 	echo "Finished MLRMCL. Now running CAw..."
-	./$CAE -a "${alpha}" -g "${gamma}" "${name}t${threshold}" "./clustering/${name}ct${threshold}" "./scoring/${name}pt${threshold}a${alpha}g${gamma}"
+	./bin/$CAE -a "${alpha}" -g "${gamma}" "${name}t${threshold}" "./clustering/${name}ct${threshold}" "./scoring/${name}pt${threshold}a${alpha}g${gamma}"
 
 	echo "Finished CAw. Clustering complete."
 
