@@ -1,0 +1,123 @@
+mitochondrial pyruvate dehydrogenase complex  Precision: 0.222222, Recall: 0.285714 FScore: 0.250000
+acetolactate synthase complex  Precision: 0.142857, Recall: 0.500000 FScore: 0.222222
+anaphase-promoting complex  Precision: 1.000000, Recall: 0.733333 FScore: 0.846154
+SAS Complex  Precision: 0.750000, Recall: 1.000000 FScore: 0.857143
+SAGA complex  Precision: 0.666667, Recall: 0.500000 FScore: 0.571429
+transcription factor TFIID complex  Precision: 0.533333, Recall: 0.533333 FScore: 0.533333
+Mlh1p/Mlh3p complex  Precision: 0.100000, Recall: 0.500000 FScore: 0.166667
+HOPS complex  Precision: 0.666667, Recall: 1.000000 FScore: 0.800000
+cAMP-dependent protein kinase  Precision: 0.666667, Recall: 1.000000 FScore: 0.800000
+Mlh1p/Mlh3p complex  Precision: 0.083333, Recall: 0.500000 FScore: 0.142857
+protein kinase CK2 complex  Precision: 0.444444, Recall: 1.000000 FScore: 0.615385
+gamma-tubulin complex  Precision: 0.500000, Recall: 1.000000 FScore: 0.666667
+Ino80p complex  Precision: 0.150000, Recall: 0.250000 FScore: 0.187500
+Prp9p/Prp11p/Prp21p complex(SF3a complex)  Precision: 0.500000, Recall: 0.666667 FScore: 0.571429
+mRNA cleavage and polyadenylation specificity factor complex  Precision: 0.833333, Recall: 1.000000 FScore: 0.909091
+anaphase-promoting complex  Precision: 0.153846, Recall: 0.133333 FScore: 0.142857
+box C/D snoRNP complex  Precision: 0.250000, Recall: 0.500000 FScore: 0.333333
+Nsp1p/Nup82p complex  Precision: 0.400000, Recall: 1.000000 FScore: 0.571429
+Nup84p complex  Precision: 0.333333, Recall: 0.500000 FScore: 0.400000
+DNA-directed RNA polymerase II complex  Precision: 0.666667, Recall: 0.666667 FScore: 0.666667
+NAN!  Precision: 0.666667, Recall: 0.666667 FScore: 0.000000
+nuclear cohesin complex  Precision: 0.222222, Recall: 0.400000 FScore: 0.285714
+nucleotide-excision repair factor 3 complex  Precision: 0.500000, Recall: 0.285714 FScore: 0.363636
+commitment complex  Precision: 1.000000, Recall: 0.666667 FScore: 0.800000
+Noc1p/Noc2p complex  Precision: 0.125000, Recall: 0.500000 FScore: 0.200000
+mitochondrial ribosomal large subunit  Precision: 0.909091, Recall: 0.227273 FScore: 0.363636
+Rpd3S complex  Precision: 0.750000, Recall: 0.600000 FScore: 0.666667
+SWI/SNF complex  Precision: 1.000000, Recall: 0.666667 FScore: 0.800000
+U4/U6 x U5 tri-snRNP complex  Precision: 1.000000, Recall: 0.607143 FScore: 0.755556
+Decapping Enzyme Complex  Precision: 0.333333, Recall: 1.000000 FScore: 0.500000
+Nuclear exosome complex  Precision: 0.846154, Recall: 0.916667 FScore: 0.880000
+HMC Complex  Precision: 0.125000, Recall: 0.250000 FScore: 0.166667
+chromatin accessibility complex  Precision: 0.333333, Recall: 0.500000 FScore: 0.400000
+eIF4F  Precision: 0.500000, Recall: 0.666667 FScore: 0.571429
+ubiquitin conjugating enzyme complex  Precision: 0.083333, Recall: 0.500000 FScore: 0.142857
+cohesin loading factor complex  Precision: 0.500000, Recall: 1.000000 FScore: 0.666667
+mitochondrial ribosomal small subunit  Precision: 0.923077, Recall: 0.375000 FScore: 0.533333
+Bub1p/Bub3p complex  Precision: 0.055556, Recall: 0.500000 FScore: 0.100000
+Kornberg's mediator (SRB) complex  Precision: 1.000000, Recall: 0.800000 FScore: 0.888889
+Cdc42p/Ste20p complex  Precision: 0.250000, Recall: 0.500000 FScore: 0.333333
+NAN!  Precision: 0.250000, Recall: 0.500000 FScore: 0.000000
+RAVE complex  Precision: 0.375000, Recall: 1.000000 FScore: 0.545455
+polarisome complex  Precision: 0.500000, Recall: 0.666667 FScore: 0.571429
+Prp19-associated complex  Precision: 0.470588, Recall: 1.000000 FScore: 0.640000
+STE5-MAPK complex  Precision: 0.750000, Recall: 0.750000 FScore: 0.750000
+Dig1p/Ste12p/Dig2p complex  Precision: 0.500000, Recall: 1.000000 FScore: 0.666667
+NAN!  Precision: 0.500000, Recall: 1.000000 FScore: 0.000000
+"actin cytoskeleton-regulatory complex, Pan1p/Sla1p/End3p complex"  Precision: 0.200000, Recall: 0.666667 FScore: 0.307692
+19/22S regulator  Precision: 0.950000, Recall: 0.863636 FScore: 0.904762
+NuA4 histone acetyltransferase complex  Precision: 1.000000, Recall: 0.384615 FScore: 0.555556
+"alpha-1,6-mannosyltransferase complex(Anp1p/Mnn9p)"  Precision: 0.800000, Recall: 0.800000 FScore: 0.800000
+DNA replication factor A complex  Precision: 0.500000, Recall: 0.666667 FScore: 0.571429
+DNA-directed RNA polymerase III complex  Precision: 1.000000, Recall: 0.588235 FScore: 0.740741
+mitochondrial inner membrane protein insertion complex  Precision: 0.800000, Recall: 1.000000 FScore: 0.888889
+Cdc73p/Paf1p complex  Precision: 0.833333, Recall: 0.714286 FScore: 0.769231
+Vam3p/Vam7 vacuolar tSNARE complex  Precision: 0.200000, Recall: 1.000000 FScore: 0.333333
+Golgi transport complex  Precision: 1.000000, Recall: 0.625000 FScore: 0.769231
+20S proteasome  Precision: 0.888889, Recall: 0.571429 FScore: 0.695652
+eIF1/eIF1A/40S complex  Precision: 0.250000, Recall: 0.500000 FScore: 0.333333
+AP-1 adaptor complex  Precision: 1.000000, Recall: 0.800000 FScore: 0.888889
+F0/F1 ATP synthase (complex V)  Precision: 1.000000, Recall: 0.277778 FScore: 0.434783
+Bub2p/Bfa1p complex  Precision: 0.500000, Recall: 1.000000 FScore: 0.666667
+NAN!  Precision: 0.500000, Recall: 1.000000 FScore: 0.000000
+Nup82 nuclear pore subcomplex  Precision: 0.250000, Recall: 0.333333 FScore: 0.285714
+Gac1p/Glc7p complex  Precision: 0.142857, Recall: 0.500000 FScore: 0.222222
+TORC 2 complex  Precision: 0.750000, Recall: 0.375000 FScore: 0.500000
+methionyl glutamyl tRNA synthetase complex  Precision: 0.111111, Recall: 0.333333 FScore: 0.166667
+DASH complex  Precision: 0.777778, Recall: 0.700000 FScore: 0.736842
+Mcm2-7 complex  Precision: 0.800000, Recall: 0.666667 FScore: 0.727273
+TORC 2 complex  Precision: 0.666667, Recall: 0.500000 FScore: 0.571429
+eIF2  Precision: 0.500000, Recall: 1.000000 FScore: 0.666667
+prefoldin complex  Precision: 1.000000, Recall: 0.833333 FScore: 0.909091
+histone deacetylase complex  Precision: 0.600000, Recall: 1.000000 FScore: 0.750000
+Set3p complex  Precision: 0.857143, Recall: 0.857143 FScore: 0.857143
+Mst27p/Mst28p complex  Precision: 0.032258, Recall: 0.500000 FScore: 0.060606
+UTP B complex  Precision: 0.285714, Recall: 0.333333 FScore: 0.307692
+Noc4p/Nop14p complex  Precision: 0.200000, Recall: 1.000000 FScore: 0.333333
+mitochondrial processing peptidase complex  Precision: 0.117647, Recall: 1.000000 FScore: 0.210526
+eIF3  Precision: 0.750000, Recall: 0.857143 FScore: 0.800000
+NAN!  Precision: 0.750000, Recall: 0.857143 FScore: 0.000000
+NAN!  Precision: 0.750000, Recall: 0.857143 FScore: 0.000000
+oligosaccharyl transferase complex  Precision: 0.800000, Recall: 0.444444 FScore: 0.571429
+NAN!  Precision: 0.800000, Recall: 0.444444 FScore: 0.000000
+Csh1p/Csg2p complex  Precision: 0.035714, Recall: 0.500000 FScore: 0.066667
+Far3p/Far7p/Far8p/Far9p/Far10p/Far11p complex  Precision: 0.750000, Recall: 0.500000 FScore: 0.600000
+COPI  Precision: 0.666667, Recall: 0.750000 FScore: 0.705882
+NAN!  Precision: 0.666667, Recall: 0.750000 FScore: 0.000000
+SCF-CDC4 complex  Precision: 0.750000, Recall: 0.600000 FScore: 0.666667
+Sno1p/Snz1p complex  Precision: 0.400000, Recall: 1.000000 FScore: 0.571429
+TRAPP complex  Precision: 1.000000, Recall: 0.900000 FScore: 0.947368
+Exocyst complex  Precision: 1.000000, Recall: 0.500000 FScore: 0.666667
+Atg20p/Snx4p/Snx41p complex  Precision: 0.100000, Recall: 0.333333 FScore: 0.153846
+NAN!  Precision: 0.100000, Recall: 0.333333 FScore: 0.000000
+ER V-ATPase assembly complex  Precision: 0.400000, Recall: 1.000000 FScore: 0.571429
+COMPASS complex  Precision: 1.000000, Recall: 0.875000 FScore: 0.933333
+retromer complex  Precision: 1.000000, Recall: 1.000000 FScore: 1.000000
+ESCRT II complex  Precision: 0.750000, Recall: 1.000000 FScore: 0.857143
+RING finger peroxin complex  Precision: 0.250000, Recall: 0.666667 FScore: 0.363636
+GSE Complex  Precision: 0.125000, Recall: 0.200000 FScore: 0.153846
+Ribosome-associated complex (RAC)  Precision: 0.400000, Recall: 1.000000 FScore: 0.571429
+Ela1p/Elc1p complex  Precision: 0.142857, Recall: 0.500000 FScore: 0.222222
+Arp2/3 protein complex  Precision: 1.000000, Recall: 0.857143 FScore: 0.923077
+NAN!  Precision: 1.000000, Recall: 0.857143 FScore: 0.000000
+Elongator complex  Precision: 0.833333, Recall: 0.833333 FScore: 0.833333
+protein phosphatase type 2A complex (Rts1p)  Precision: 0.600000, Recall: 1.000000 FScore: 0.750000
+GARP complex  Precision: 0.800000, Recall: 1.000000 FScore: 0.888889
+COPII  Precision: 1.000000, Recall: 0.545455 FScore: 0.705882
+chaperonin-containing T-complex  Precision: 1.000000, Recall: 0.875000 FScore: 0.933333
+Cbf1p/Met4p/Met28p complex  Precision: 0.285714, Recall: 0.666667 FScore: 0.400000
+adenylyl cyclase complex  Precision: 0.250000, Recall: 0.500000 FScore: 0.333333
+Origin recognition complex  Precision: 0.857143, Recall: 1.000000 FScore: 0.923077
+ribonucleoside-diphosphate reductase complex  Precision: 0.500000, Recall: 0.666667 FScore: 0.571429
+Sec61p translocon complex  Precision: 0.125000, Recall: 0.333333 FScore: 0.181818
+alpha DNA polymerase:primase complex  Precision: 0.800000, Recall: 1.000000 FScore: 0.888889
+DNA polymerase epsilon complex  Precision: 0.800000, Recall: 1.000000 FScore: 0.888889
+Shq1p/Naf1p complex  Precision: 0.200000, Recall: 0.500000 FScore: 0.285714
+THO complex  Precision: 0.600000, Recall: 0.750000 FScore: 0.666667
+mitochondrial ribosomal large subunit  Precision: 1.000000, Recall: 0.090909 FScore: 0.166667
+NAN!  Precision: 1.000000, Recall: 0.090909 FScore: 0.000000
+NAN!  Precision: 1.000000, Recall: 0.090909 FScore: 0.000000
+serine C-palmitoyltransferase complex  Precision: 0.400000, Recall: 1.000000 FScore: 0.571429
+Tim8p/Tim13p complex  Precision: 0.500000, Recall: 1.000000 FScore: 0.666667
+Clusters: 960, Average Precision: 0.534687, Average Recall: 0.658274, Average Fscore: 0.485993

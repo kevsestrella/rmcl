@@ -46,8 +46,12 @@ int main(int argc, char **argv){
   int flag = 0;
   int protein_id = 1;
   double cyc_size, clust_size, intersect_size;
+  double precision = 0.0;
+  double recall = 0.0;
   double fscore = 0.0;
   double tempscore = 0.0;
+  double avgPrecision = 0.0;
+  double avgRecall = 0.0;
   double avgFscore = 0.0;
   size_t len;
 
@@ -128,6 +132,8 @@ printf("%s\n", "Now calculating F-scores of output clusters...");
         tempscore = 0.0;
       }  
       if(tempscore > fscore){
+        precision = intersect_size/clust_size;
+        recall = intersect_size/cyc_size;
         fscore = tempscore;
         temp_name = it->first;
         flag = 1;
@@ -144,7 +150,9 @@ printf("%s\n", "Now calculating F-scores of output clusters...");
     //}
   //END COMPUTE FSCORE, OUTPUT TO FILE
 
-  fprintf(outputfile, "%s   %f\n", temp_name.c_str() ,fscore);
+  fprintf(outputfile, "%s  Precision: %f, Recall: %f FScore: %f\n", temp_name.c_str() ,precision, recall, fscore);
+  avgPrecision = avgPrecision + (precision * clust_size);
+  avgRecall = avgRecall + (recall * clust_size);
   avgFscore = avgFscore + (fscore * clust_size);
   
   //reset to defaults
@@ -154,8 +162,10 @@ printf("%s\n", "Now calculating F-scores of output clusters...");
   protein_members.clear();
   }
 
+    double finalAvgPrecision = (avgPrecision/sumclusters);
+    double finalAvgRecall = (avgRecall/sumclusters);
   double finalAvgFScore = (avgFscore/sumclusters);
-  fprintf(outputfile, "Average Fscore: %f\n", finalAvgFScore);
+  fprintf(outputfile, "Clusters: %d, Average Precision: %f, Average Recall: %f, Average Fscore: %f\n", sumclusters, finalAvgPrecision, finalAvgRecall, finalAvgFScore);
   printf("%s\n", "Finished computing F-scores.");
 
   fclose(inputclusters);

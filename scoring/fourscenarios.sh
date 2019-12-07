@@ -1,10 +1,10 @@
 #!/bin/bash
 
-BMAPPING=BioGRID_AGaser_graph_mapping
-DMAPPING=DIP_AGaser_graph_mapping
-CLUSTER_MAPPING=clusters_with_proteins_list
-BCLUSTER_MAPPING=banno_clusters_with_proteins_list
-DCLUSTER_MAPPING=danno_clusters_with_proteins_list
+BMAPPING=etc/BioGRID_AGaser_graph_mapping
+DMAPPING=etc/DIP_AGaser_graph_mapping
+CLUSTER_MAPPING=etc/clusters_with_proteins_list
+BCLUSTER_MAPPING=etc/banno_clusters_with_proteins_list
+DCLUSTER_MAPPING=etc/danno_clusters_with_proteins_list
 FSCE=FScoring
 FSCIN=FScoringInc
 

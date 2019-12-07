@@ -1,0 +1,16 @@
+BioGRID_unweighted_graph-pt-mlr-0.21-a1-g0.75_scored_scenarioA:Average Fscore: 0.390212
+BioGRID_unweighted_graph-pt-mlr-0.21-a1-g0.75_scored_scenarioB:Average Fscore: 0.449495
+BioGRID_unweighted_graph-pt-mlr-0.21-a1-g0.75_scored_scenarioC:Average Fscore: 0.389339
+BioGRID_unweighted_graph-pt-mlr-0.21-a1-g0.75_scored_scenarioD:Average Fscore: 0.448490
+BioGRID_unweighted_graph-pt-sr-0.21-a1-g0.75_scored_scenarioA:Average Fscore: 0.316163
+BioGRID_unweighted_graph-pt-sr-0.21-a1-g0.75_scored_scenarioB:Average Fscore: 0.394408
+BioGRID_unweighted_graph-pt-sr-0.21-a1-g0.75_scored_scenarioC:Average Fscore: 0.315592
+BioGRID_unweighted_graph-pt-sr-0.21-a1-g0.75_scored_scenarioD:Average Fscore: 0.393695
+DIP_unweighted_graph-pt-mlr-0.20-a1-g0.75_scored_scenarioA:Average Fscore: 0.489905
+DIP_unweighted_graph-pt-mlr-0.20-a1-g0.75_scored_scenarioB:Average Fscore: 0.525485
+DIP_unweighted_graph-pt-mlr-0.20-a1-g0.75_scored_scenarioC:Average Fscore: 0.485993
+DIP_unweighted_graph-pt-mlr-0.20-a1-g0.75_scored_scenarioD:Average Fscore: 0.521289
+DIP_unweighted_graph-pt-sr-0.20-a1-g0.75_scored_scenarioA:Average Fscore: 0.369326
+DIP_unweighted_graph-pt-sr-0.20-a1-g0.75_scored_scenarioB:Average Fscore: 0.441123
+DIP_unweighted_graph-pt-sr-0.20-a1-g0.75_scored_scenarioC:Average Fscore: 0.366820
+DIP_unweighted_graph-pt-sr-0.20-a1-g0.75_scored_scenarioD:Average Fscore: 0.438129
