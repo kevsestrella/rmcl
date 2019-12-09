@@ -1,6 +1,6 @@
 #!/bin/bash
-if [ "$#" -ne 5 ]; then
-	echo "Usage: <input file> <FS threshold> <CAw alpha> <CAw gamma> <mode:mlr or sr>"
+if [ "$#" -ne 8 ]; then
+	echo "Usage: <input file> <FS threshold> <CAw alpha> <CAw gamma> <mode:mlr or sr> <SRMCL p> <SRMCL q><SRMCL w>"
 
 else
     #identify OS
@@ -20,6 +20,9 @@ else
 	alpha=$3
 	gamma=$4
     mode=$5
+    p=$6
+    q=$7
+    w=$8
 
     #exe
     WORKDIR=$PWD
@@ -34,9 +37,9 @@ else
     NETWORKSFILE="$NETWORKS/${filename}-t-${threshold}"
     NETWORKSFILE4MCL="$NETWORKS/${filename}-mt-${threshold}"
     CLUSTERS=$WORKDIR/clustering
-    CLUSTERFILE="$CLUSTERS/${filename}-ct-${mode}-${threshold}"
+    CLUSTERFILE="$CLUSTERS/${filename}-ct-${mode}-p$p-q$q-w$w-${threshold}"
     COREATTACHMENTS=$WORKDIR/coreattachments
-    COREATTCHFILE=$COREATTACHMENTS/${filename}-pt-${mode}-${threshold}-a${alpha}-g${gamma}
+    COREATTCHFILE=$COREATTACHMENTS/${filename}-pt-${mode}-p$p-q$q-w$w-${threshold}-a${alpha}-g${gamma}
 
     echo "Begin clustering."
     echo "Computing FSWeights at $threshold threshold..."
@@ -45,7 +48,7 @@ else
         
     echo "Finished computing FSWeights. Now running ${mode}MCL..."
 
-    $MCL $NETWORKSFILE4MCL -o $CLUSTERFILE
+    $MCL $NETWORKSFILE4MCL -p $p -q $q -w $w -o $CLUSTERFILE
 
     echo "Finished ${mode}MCL. Now running CAw..."
 
