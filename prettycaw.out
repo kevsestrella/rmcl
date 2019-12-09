@@ -1,375 +1,2010 @@
 ---------Cluster 1-----------
-Core Proteins: [46, 2733, 4109, 4604]
+Core Proteins: [10, 276, 2103, 2330, 2857, 2919, 3956, 4602, 4982]
 Attachment Proteins: []
 
 
 ---------Cluster 2-----------
-Core Proteins: [113, 3831, 4560]
+Core Proteins: [15, 17, 18]
 Attachment Proteins: []
 
 
 ---------Cluster 3-----------
-Core Proteins: [176, 817, 1956, 4413]
-Attachment Proteins: []
-
-
----------Cluster 4-----------
-Core Proteins: [197, 889, 4219]
-Attachment Proteins: []
-
-
----------Cluster 5-----------
-Core Proteins: [342, 1337, 1338]
-Attachment Proteins: []
-
-
----------Cluster 6-----------
-Core Proteins: [355, 356, 884, 1893]
-Attachment Proteins: []
-
-
----------Cluster 7-----------
-Core Proteins: [363, 365, 4101]
-Attachment Proteins: []
-
-
----------Cluster 8-----------
-Core Proteins: [374, 1502, 1608]
-Attachment Proteins: []
-
-
----------Cluster 9-----------
-Core Proteins: [527, 1467, 4549]
-Attachment Proteins: []
-
-
----------Cluster 10-----------
-Core Proteins: [666, 1655, 4092]
-Attachment Proteins: []
-
-
----------Cluster 11-----------
-Core Proteins: [811, 2342, 2864, 4767]
-Attachment Proteins: []
-
-
----------Cluster 12-----------
-Core Proteins: [840, 841, 894]
-Attachment Proteins: []
-
-
----------Cluster 13-----------
-Core Proteins: [856, 857, 1282]
-Attachment Proteins: []
-
-
----------Cluster 14-----------
-Core Proteins: [906, 908, 4284]
-Attachment Proteins: []
-
-
----------Cluster 15-----------
-Core Proteins: [924, 1331, 1386]
-Attachment Proteins: []
-
-
----------Cluster 16-----------
-Core Proteins: [926, 927, 1020]
-Attachment Proteins: []
-
-
----------Cluster 17-----------
-Core Proteins: [936, 1130, 2036, 4672]
-Attachment Proteins: []
-
-
----------Cluster 18-----------
-Core Proteins: [937, 941, 2895]
-Attachment Proteins: []
-
-
----------Cluster 19-----------
-Core Proteins: [963, 1271, 3953, 4548, 4627]
-Attachment Proteins: []
-
-
----------Cluster 20-----------
-Core Proteins: [1015, 1289, 1355, 1442, 1787]
-Attachment Proteins: []
-
-
----------Cluster 21-----------
-Core Proteins: [1161, 1162, 1521, 1522, 1523, 4523]
-Attachment Proteins: []
-
-
----------Cluster 22-----------
-Core Proteins: [1188, 1393, 1395, 1804]
-Attachment Proteins: []
-
-
----------Cluster 23-----------
-Core Proteins: [1266, 2050, 2774]
-Attachment Proteins: []
-
-
----------Cluster 24-----------
-Core Proteins: [1284, 4105, 4106]
-Attachment Proteins: []
-
-
----------Cluster 25-----------
-Core Proteins: [1590, 1591, 1594, 1595]
-Attachment Proteins: []
-
-
----------Cluster 26-----------
-Core Proteins: [1911, 4710, 4711]
-Attachment Proteins: []
-
-
----------Cluster 27-----------
-Core Proteins: [2035, 2923, 4159]
-Attachment Proteins: []
-
-
----------Cluster 28-----------
-Core Proteins: [3033, 3577, 4517]
-Attachment Proteins: []
-
-
----------Cluster 29-----------
-Core Proteins: [3570, 3902, 4993]
-Attachment Proteins: []
-
-
----------Cluster 30-----------
 Core Proteins: [19, 20, 21, 22, 23, 327, 358, 359, 360, 361, 362]
 Attachment Proteins: []
 
 
+---------Cluster 4-----------
+Core Proteins: [30, 2035, 2923, 4159]
+Attachment Proteins: []
+
+
+---------Cluster 5-----------
+Core Proteins: [33, 293, 307, 312, 407, 504, 886, 1188, 1246, 1393, 1395, 1804, 3650]
+Attachment Proteins: []
+
+
+---------Cluster 6-----------
+Core Proteins: [36, 37, 335]
+Attachment Proteins: []
+
+
+---------Cluster 7-----------
+Core Proteins: [38, 44, 1499]
+Attachment Proteins: []
+
+
+---------Cluster 8-----------
+Core Proteins: [46, 47, 2733, 3807, 4109, 4110, 4276, 4604]
+Attachment Proteins: []
+
+
+---------Cluster 9-----------
+Core Proteins: [50, 644, 2932]
+Attachment Proteins: []
+
+
+---------Cluster 10-----------
+Core Proteins: [51, 52, 53, 1646, 4084]
+Attachment Proteins: []
+
+
+---------Cluster 11-----------
+Core Proteins: [60, 91, 1297, 4034, 4056, 4486]
+Attachment Proteins: [3918.0]
+
+
+---------Cluster 12-----------
+Core Proteins: [61, 62, 63, 64, 1339, 1767, 3139, 4305]
+Attachment Proteins: []
+
+
+---------Cluster 13-----------
+Core Proteins: [65, 66, 67, 68, 119]
+Attachment Proteins: []
+
+
+---------Cluster 14-----------
+Core Proteins: [69, 317, 802, 1345, 1389, 1431, 1472, 1478, 1819, 2105, 3217, 3529, 4273, 4524, 4704]
+Attachment Proteins: []
+
+
+---------Cluster 15-----------
+Core Proteins: [75, 77, 144, 1536]
+Attachment Proteins: []
+
+
+---------Cluster 16-----------
+Core Proteins: [80, 152, 684, 1221, 1222, 1434, 1604, 1605, 1606, 1607, 2726, 4069, 4514, 4539, 4673]
+Attachment Proteins: []
+
+
+---------Cluster 17-----------
+Core Proteins: [85, 87, 172, 265, 697, 1420, 2522, 2881, 3287, 3499, 4065, 4111, 4122, 4238]
+Attachment Proteins: []
+
+
+---------Cluster 18-----------
+Core Proteins: [86, 1946, 2729, 4169, 4250, 4251, 4362, 4403]
+Attachment Proteins: []
+
+
+---------Cluster 19-----------
+Core Proteins: [96, 97, 1263, 1452, 1489, 1564, 1843, 4071]
+Attachment Proteins: []
+
+
+---------Cluster 20-----------
+Core Proteins: [98, 99, 342, 343, 345, 353, 375, 1338, 1521, 4496]
+Attachment Proteins: []
+
+
+---------Cluster 21-----------
+Core Proteins: [104, 656, 1497]
+Attachment Proteins: []
+
+
+---------Cluster 22-----------
+Core Proteins: [103, 890, 1496]
+Attachment Proteins: []
+
+
+---------Cluster 23-----------
+Core Proteins: [107, 2071, 2092, 2098, 2099]
+Attachment Proteins: [2077.0]
+
+
+---------Cluster 24-----------
+Core Proteins: [113, 176, 357, 617, 817, 1869, 1956, 2088, 2757, 3831, 4413, 4560, 4630]
+Attachment Proteins: []
+
+
+---------Cluster 25-----------
+Core Proteins: [114, 2882, 3745, 4168, 4260]
+Attachment Proteins: []
+
+
+---------Cluster 26-----------
+Core Proteins: [127, 944, 945]
+Attachment Proteins: []
+
+
+---------Cluster 27-----------
+Core Proteins: [138, 996, 1450, 3612]
+Attachment Proteins: []
+
+
+---------Cluster 28-----------
+Core Proteins: [139, 374, 1502, 1579, 1608, 2521, 4316, 4632]
+Attachment Proteins: []
+
+
+---------Cluster 29-----------
+Core Proteins: [141, 213, 218, 236, 492, 616, 845, 1563, 1598, 1723, 1743, 3538, 3588, 3677]
+Attachment Proteins: []
+
+
+---------Cluster 30-----------
+Core Proteins: [153, 165, 585, 638]
+Attachment Proteins: []
+
+
 ---------Cluster 31-----------
-Core Proteins: [1272, 1273, 1494, 2883, 3809, 4098, 4520]
-Attachment Proteins: [4519.0]
+Core Proteins: [159, 164, 659, 1272, 1273, 1494, 2883, 3652, 3809, 4098, 4519, 4520]
+Attachment Proteins: []
 
 
 ---------Cluster 32-----------
-Core Proteins: [286, 1219, 1873]
+Core Proteins: [161, 1413, 3690, 4189, 4507, 4540]
 Attachment Proteins: []
 
 
 ---------Cluster 33-----------
-Core Proteins: [372, 373, 2464]
+Core Proteins: [170, 1471, 3668]
 Attachment Proteins: []
 
 
 ---------Cluster 34-----------
-Core Proteins: [496, 1542, 1543]
+Core Proteins: [171, 1771, 3415]
 Attachment Proteins: []
 
 
 ---------Cluster 35-----------
-Core Proteins: [504, 886, 1246]
+Core Proteins: [180, 4309, 4310, 4428, 4552, 4616]
 Attachment Proteins: []
 
 
 ---------Cluster 36-----------
-Core Proteins: [527, 1448, 1467]
+Core Proteins: [183, 184, 428]
 Attachment Proteins: []
 
 
 ---------Cluster 37-----------
-Core Proteins: [920, 928, 932]
-Attachment Proteins: []
+Core Proteins: [186, 256, 439, 1097, 1620, 2235, 3952, 4039]
+Attachment Proteins: [2533.0]
 
 
 ---------Cluster 38-----------
-Core Proteins: [924, 1331, 1385]
+Core Proteins: [191, 1301, 2219, 2331, 3245, 3624, 3702, 4186, 4191, 4564, 4566, 4567, 4571]
 Attachment Proteins: []
 
 
 ---------Cluster 39-----------
-Core Proteins: [984, 1919, 2341, 2734, 4628, 4798]
+Core Proteins: [193, 261, 332, 798, 1023, 1033, 1354, 1373, 1482, 1501, 1572, 2530, 2651, 3772, 4082]
 Attachment Proteins: []
 
 
 ---------Cluster 40-----------
-Core Proteins: [1499, 2436, 4107]
+Core Proteins: [197, 306, 383, 392, 480, 628, 630, 631, 759, 856, 857, 889, 1282, 1473, 1474, 2252, 4124, 4219]
 Attachment Proteins: []
 
 
 ---------Cluster 41-----------
-Core Proteins: [1983, 3356, 4186]
+Core Proteins: [198, 279, 288, 1364]
 Attachment Proteins: []
 
 
 ---------Cluster 42-----------
-Core Proteins: [2110, 2111, 2114, 2115, 2116]
+Core Proteins: [209, 529, 4976]
 Attachment Proteins: []
 
 
 ---------Cluster 43-----------
-Core Proteins: [522, 771, 778, 1997, 3583, 4158, 4624]
+Core Proteins: [210, 1430, 2049, 2050, 2774, 2917, 4679]
 Attachment Proteins: []
 
 
 ---------Cluster 44-----------
-Core Proteins: [1405, 1422, 1423, 1424, 1425, 1426, 1427]
+Core Proteins: [217, 273, 1360, 1476]
 Attachment Proteins: []
 
 
 ---------Cluster 45-----------
-Core Proteins: [46, 47, 2733, 4276]
+Core Proteins: [228, 355, 356, 880, 881, 883, 884, 1765, 1893, 1979, 2323, 3486, 3681]
 Attachment Proteins: []
 
 
 ---------Cluster 46-----------
-Core Proteins: [134, 4576, 4577, 4583]
-Attachment Proteins: []
+Core Proteins: [245, 1906, 2298, 3062, 3717, 4192, 4254, 4498]
+Attachment Proteins: [4194.0, 4255.0, 4263.0]
 
 
 ---------Cluster 47-----------
-Core Proteins: [355, 356, 881, 1979, 3486]
+Core Proteins: [252, 253, 254]
 Attachment Proteins: []
 
 
 ---------Cluster 48-----------
-Core Proteins: [587, 2495, 3957, 4698, 4787]
-Attachment Proteins: [3074.0]
+Core Proteins: [257, 319, 320, 493, 494]
+Attachment Proteins: []
 
 
 ---------Cluster 49-----------
-Core Proteins: [724, 1926, 1930, 3165]
+Core Proteins: [263, 1587, 3623]
 Attachment Proteins: []
 
 
 ---------Cluster 50-----------
-Core Proteins: [2342, 3208, 4764]
+Core Proteins: [267, 396, 1561, 1877, 3329, 4161]
 Attachment Proteins: []
 
 
 ---------Cluster 51-----------
-Core Proteins: [1564, 1843, 4071]
+Core Proteins: [280, 287, 292, 1358, 4149]
 Attachment Proteins: []
 
 
 ---------Cluster 52-----------
-Core Proteins: [1590, 1591, 1592, 1593]
+Core Proteins: [277, 1247, 1641]
 Attachment Proteins: []
 
 
 ---------Cluster 53-----------
-Core Proteins: [1596, 1597, 1889, 3294]
+Core Proteins: [1365, 1367, 1802]
 Attachment Proteins: []
 
 
 ---------Cluster 54-----------
-Core Proteins: [80, 1221, 1222, 1434, 1604, 1605, 1606, 1607, 2726, 4069, 4514]
+Core Proteins: [286, 928, 932, 1219, 1873, 1876]
 Attachment Proteins: []
 
 
 ---------Cluster 55-----------
-Core Proteins: [628, 631, 1473, 1474, 1475]
+Core Proteins: [303, 522, 770, 771, 773, 776, 778, 784, 786, 787, 1288, 1994, 1997, 2961, 3583, 4158, 4624]
 Attachment Proteins: []
 
 
 ---------Cluster 56-----------
-Core Proteins: [19, 20, 360]
+Core Proteins: [321, 322, 323, 324]
 Attachment Proteins: []
 
 
 ---------Cluster 57-----------
-Core Proteins: [522, 771, 4624]
+Core Proteins: [329, 1559, 1648, 1654]
 Attachment Proteins: []
 
 
 ---------Cluster 58-----------
-Core Proteins: [936, 1130, 2938]
+Core Proteins: [333, 334, 336, 337, 344, 348, 611, 4620]
 Attachment Proteins: []
 
 
 ---------Cluster 59-----------
-Core Proteins: [1188, 1393, 1394]
+Core Proteins: [363, 364, 365, 3527, 4101]
 Attachment Proteins: []
 
 
 ---------Cluster 60-----------
-Core Proteins: [666, 902, 1655]
-Attachment Proteins: []
+Core Proteins: [373, 1934, 2387, 2464, 4265]
+Attachment Proteins: [372.0]
 
 
 ---------Cluster 61-----------
-Core Proteins: [724, 1930, 1943]
+Core Proteins: [390, 597, 661]
 Attachment Proteins: []
 
 
 ---------Cluster 62-----------
-Core Proteins: [984, 1919, 2734, 4628]
+Core Proteins: [399, 722, 724, 1928, 1941, 1943, 4990]
 Attachment Proteins: []
 
 
 ---------Cluster 63-----------
-Core Proteins: [1088, 3062, 3589]
+Core Proteins: [404, 406, 2243, 3126]
 Attachment Proteins: []
 
 
 ---------Cluster 64-----------
-Core Proteins: [80, 1221, 1434]
+Core Proteins: [412, 2110, 2111, 2115, 2116]
 Attachment Proteins: []
 
 
 ---------Cluster 65-----------
-Core Proteins: [333, 344, 611]
+Core Proteins: [423, 713, 1415, 1711, 1815]
 Attachment Proteins: []
 
 
 ---------Cluster 66-----------
-Core Proteins: [522, 771, 778]
+Core Proteins: [457, 1490, 1491]
 Attachment Proteins: []
 
 
 ---------Cluster 67-----------
-Core Proteins: [587, 2495, 3957]
+Core Proteins: [459, 538, 1512, 1514, 3513, 3676, 3770]
 Attachment Proteins: []
 
 
 ---------Cluster 68-----------
-Core Proteins: [770, 773, 1288]
+Core Proteins: [473, 550, 551, 1153]
 Attachment Proteins: []
 
 
 ---------Cluster 69-----------
-Core Proteins: [2055, 2773, 4535]
-Attachment Proteins: [4641.0]
+Core Proteins: [488, 489, 498, 846, 1123, 1124, 1891, 4061]
+Attachment Proteins: []
 
 
 ---------Cluster 70-----------
-Core Proteins: [2110, 2111, 2115]
+Core Proteins: [501, 579, 598]
 Attachment Proteins: []
 
 
 ---------Cluster 71-----------
-Core Proteins: [2687, 3330, 4362]
+Core Proteins: [509, 640, 1492, 3278, 3640, 4321]
 Attachment Proteins: []
 
 
 ---------Cluster 72-----------
-Core Proteins: [159, 164, 659]
+Core Proteins: [527, 1448, 1466, 1467, 1697, 4549]
 Attachment Proteins: []
 
 
 ---------Cluster 73-----------
-Core Proteins: [684, 1434, 4539]
+Core Proteins: [531, 532, 4599, 4705]
 Attachment Proteins: []
 
 
 ---------Cluster 74-----------
-Core Proteins: [1888, 2244, 3957, 3973]
+Core Proteins: [556, 557, 1283]
 Attachment Proteins: []
 
 
 ---------Cluster 75-----------
-Core Proteins: [3186, 4628, 4796]
+Core Proteins: [563, 3035, 4163]
+Attachment Proteins: []
+
+
+---------Cluster 76-----------
+Core Proteins: [567, 1071, 1100]
+Attachment Proteins: []
+
+
+---------Cluster 77-----------
+Core Proteins: [574, 963, 1271, 3953, 4049, 4548, 4627]
+Attachment Proteins: []
+
+
+---------Cluster 78-----------
+Core Proteins: [584, 1554, 4412, 4597]
+Attachment Proteins: [673.0, 4099.0]
+
+
+---------Cluster 79-----------
+Core Proteins: [605, 1065, 2687, 3626, 4162, 4468]
+Attachment Proteins: [3720.0]
+
+
+---------Cluster 80-----------
+Core Proteins: [607, 1122, 2878, 3054, 3330, 4307, 4522]
+Attachment Proteins: []
+
+
+---------Cluster 81-----------
+Core Proteins: [623, 624, 625]
+Attachment Proteins: []
+
+
+---------Cluster 82-----------
+Core Proteins: [635, 1026, 1665, 4217, 4336, 4474]
+Attachment Proteins: []
+
+
+---------Cluster 83-----------
+Core Proteins: [652, 2720, 3091, 4225, 4230, 4338]
+Attachment Proteins: [4263.0]
+
+
+---------Cluster 84-----------
+Core Proteins: [666, 902, 1441, 1655, 1656, 2855, 4092]
+Attachment Proteins: []
+
+
+---------Cluster 85-----------
+Core Proteins: [677, 728, 3177]
+Attachment Proteins: []
+
+
+---------Cluster 86-----------
+Core Proteins: [679, 707, 708]
+Attachment Proteins: []
+
+
+---------Cluster 87-----------
+Core Proteins: [698, 699, 700]
+Attachment Proteins: []
+
+
+---------Cluster 88-----------
+Core Proteins: [701, 1756, 1826]
+Attachment Proteins: []
+
+
+---------Cluster 89-----------
+Core Proteins: [1591, 1592, 1594, 1595]
+Attachment Proteins: []
+
+
+---------Cluster 90-----------
+Core Proteins: [735, 736, 4296, 4360]
+Attachment Proteins: []
+
+
+---------Cluster 91-----------
+Core Proteins: [755, 1414, 4133]
+Attachment Proteins: []
+
+
+---------Cluster 92-----------
+Core Proteins: [756, 904, 925, 1597, 1889, 1894, 1919, 2384, 3186, 3284, 3294, 3394, 3471, 3560, 3636, 4628, 4762, 4771, 4788, 4792, 4796, 4798, 4804, 4826, 4835, 4871]
+Attachment Proteins: []
+
+
+---------Cluster 93-----------
+Core Proteins: [758, 1610, 1612, 2478]
+Attachment Proteins: []
+
+
+---------Cluster 94-----------
+Core Proteins: [766, 1118, 2844]
+Attachment Proteins: []
+
+
+---------Cluster 95-----------
+Core Proteins: [769, 2021, 4283]
+Attachment Proteins: []
+
+
+---------Cluster 96-----------
+Core Proteins: [777, 1007, 1008]
+Attachment Proteins: []
+
+
+---------Cluster 97-----------
+Core Proteins: [808, 1213, 1242, 1371, 3033, 3577, 4237, 4517]
+Attachment Proteins: []
+
+
+---------Cluster 98-----------
+Core Proteins: [847, 2547, 4461]
+Attachment Proteins: []
+
+
+---------Cluster 99-----------
+Core Proteins: [854, 1398, 2657]
+Attachment Proteins: []
+
+
+---------Cluster 100-----------
+Core Proteins: [860, 891, 1025, 2043]
+Attachment Proteins: []
+
+
+---------Cluster 101-----------
+Core Proteins: [879, 1174, 2183]
+Attachment Proteins: []
+
+
+---------Cluster 102-----------
+Core Proteins: [907, 908, 909, 2851, 3426, 4067, 4284, 4285]
+Attachment Proteins: []
+
+
+---------Cluster 103-----------
+Core Proteins: [922, 1855, 2027, 3970]
+Attachment Proteins: []
+
+
+---------Cluster 104-----------
+Core Proteins: [926, 927, 1020, 1269, 1309, 1384, 1629, 1812, 2249]
+Attachment Proteins: []
+
+
+---------Cluster 105-----------
+Core Proteins: [933, 1212, 1215, 3275, 4280, 4682]
+Attachment Proteins: []
+
+
+---------Cluster 106-----------
+Core Proteins: [935, 1266, 4108]
+Attachment Proteins: []
+
+
+---------Cluster 107-----------
+Core Proteins: [936, 951, 952, 1130, 2036, 2938, 4672]
+Attachment Proteins: []
+
+
+---------Cluster 108-----------
+Core Proteins: [937, 938, 941, 2524, 2895]
+Attachment Proteins: []
+
+
+---------Cluster 109-----------
+Core Proteins: [942, 943, 1156, 2769]
+Attachment Proteins: []
+
+
+---------Cluster 110-----------
+Core Proteins: [3899, 4171]
+Attachment Proteins: [4214.0, 4234.0]
+
+
+---------Cluster 111-----------
+Core Proteins: [975, 4079, 4170]
+Attachment Proteins: [4194.0]
+
+
+---------Cluster 112-----------
+Core Proteins: [997, 998, 3779]
+Attachment Proteins: []
+
+
+---------Cluster 113-----------
+Core Proteins: [1015, 1289, 1355, 1356, 1442, 1787]
+Attachment Proteins: []
+
+
+---------Cluster 114-----------
+Core Proteins: [1024, 4072, 4433, 4511]
+Attachment Proteins: []
+
+
+---------Cluster 115-----------
+Core Proteins: [1052, 1161, 1162, 1522, 1523, 4523]
+Attachment Proteins: []
+
+
+---------Cluster 116-----------
+Core Proteins: [1197, 2032, 4080]
+Attachment Proteins: []
+
+
+---------Cluster 117-----------
+Core Proteins: [1284, 2295, 3900, 4105, 4106]
+Attachment Proteins: []
+
+
+---------Cluster 118-----------
+Core Proteins: [1296, 1440, 1676]
+Attachment Proteins: []
+
+
+---------Cluster 119-----------
+Core Proteins: [1321, 1369, 3112, 4068]
+Attachment Proteins: []
+
+
+---------Cluster 120-----------
+Core Proteins: [1377, 1519, 2094, 4129, 4130]
+Attachment Proteins: []
+
+
+---------Cluster 121-----------
+Core Proteins: [1396, 1397, 1535]
+Attachment Proteins: []
+
+
+---------Cluster 122-----------
+Core Proteins: [1399, 1401, 1456, 1457]
+Attachment Proteins: []
+
+
+---------Cluster 123-----------
+Core Proteins: [1405, 1422, 1423, 1424, 1425, 1426, 1427]
+Attachment Proteins: []
+
+
+---------Cluster 124-----------
+Core Proteins: [1432, 1433, 1511]
+Attachment Proteins: []
+
+
+---------Cluster 125-----------
+Core Proteins: [1486, 1487, 1585]
+Attachment Proteins: []
+
+
+---------Cluster 126-----------
+Core Proteins: [1503, 1504, 1797, 3703]
+Attachment Proteins: []
+
+
+---------Cluster 127-----------
+Core Proteins: [1568, 2392, 3806, 3941, 4890]
+Attachment Proteins: []
+
+
+---------Cluster 128-----------
+Core Proteins: [1659, 1660, 1661]
+Attachment Proteins: []
+
+
+---------Cluster 129-----------
+Core Proteins: [1662, 1670, 1671]
+Attachment Proteins: [1672.0]
+
+
+---------Cluster 130-----------
+Core Proteins: [1668, 1669, 2943, 3122]
+Attachment Proteins: []
+
+
+---------Cluster 131-----------
+Core Proteins: [1772, 2151, 3503]
+Attachment Proteins: []
+
+
+---------Cluster 132-----------
+Core Proteins: [1823, 2670, 2796, 2808, 4466]
+Attachment Proteins: []
+
+
+---------Cluster 133-----------
+Core Proteins: [1963, 4154, 4701]
+Attachment Proteins: []
+
+
+---------Cluster 134-----------
+Core Proteins: [2065, 2309, 4505]
+Attachment Proteins: []
+
+
+---------Cluster 135-----------
+Core Proteins: [2124, 2775, 3142]
+Attachment Proteins: []
+
+
+---------Cluster 136-----------
+Core Proteins: [2145, 4688, 4689]
+Attachment Proteins: []
+
+
+---------Cluster 137-----------
+Core Proteins: [2270, 4573, 4585, 4587]
+Attachment Proteins: []
+
+
+---------Cluster 138-----------
+Core Proteins: [2465, 3989, 4844]
+Attachment Proteins: []
+
+
+---------Cluster 139-----------
+Core Proteins: [2528, 3377, 4312, 4797]
+Attachment Proteins: []
+
+
+---------Cluster 140-----------
+Core Proteins: [2931, 4527, 4801]
+Attachment Proteins: []
+
+
+---------Cluster 141-----------
+Core Proteins: [3570, 3902, 4993, 4994]
+Attachment Proteins: []
+
+
+---------Cluster 142-----------
+Core Proteins: [3950, 4033, 4467]
+Attachment Proteins: []
+
+
+---------Cluster 143-----------
+Core Proteins: [4917, 4918, 4919]
+Attachment Proteins: []
+
+
+---------Cluster 144-----------
+Core Proteins: [31, 32, 294, 295, 297, 300, 301, 308, 309]
+Attachment Proteins: []
+
+
+---------Cluster 145-----------
+Core Proteins: [36, 37, 1372]
+Attachment Proteins: []
+
+
+---------Cluster 146-----------
+Core Proteins: [41, 330, 1459, 1550, 2148, 2325, 3094, 3266, 4739]
+Attachment Proteins: []
+
+
+---------Cluster 147-----------
+Core Proteins: [88, 89, 472]
+Attachment Proteins: []
+
+
+---------Cluster 148-----------
+Core Proteins: [94, 680, 877, 1185, 1453]
+Attachment Proteins: []
+
+
+---------Cluster 149-----------
+Core Proteins: [127, 944, 1929]
+Attachment Proteins: []
+
+
+---------Cluster 150-----------
+Core Proteins: [189, 727, 4050]
+Attachment Proteins: []
+
+
+---------Cluster 151-----------
+Core Proteins: [267, 291, 668]
+Attachment Proteins: []
+
+
+---------Cluster 152-----------
+Core Proteins: [911, 1532, 1680, 2011]
+Attachment Proteins: []
+
+
+---------Cluster 153-----------
+Core Proteins: [292, 1358, 4149]
+Attachment Proteins: []
+
+
+---------Cluster 154-----------
+Core Proteins: [422, 3145, 3249, 4473]
+Attachment Proteins: []
+
+
+---------Cluster 155-----------
+Core Proteins: [434, 435, 4118]
+Attachment Proteins: []
+
+
+---------Cluster 156-----------
+Core Proteins: [475, 1451, 1517]
+Attachment Proteins: []
+
+
+---------Cluster 157-----------
+Core Proteins: [495, 496, 1429, 1542, 1543, 1544, 1545]
+Attachment Proteins: []
+
+
+---------Cluster 158-----------
+Core Proteins: [497, 1479, 2097]
+Attachment Proteins: []
+
+
+---------Cluster 159-----------
+Core Proteins: [582, 1054, 4545]
+Attachment Proteins: []
+
+
+---------Cluster 160-----------
+Core Proteins: [695, 3873, 4663]
+Attachment Proteins: []
+
+
+---------Cluster 161-----------
+Core Proteins: [696, 1090, 1098]
+Attachment Proteins: []
+
+
+---------Cluster 162-----------
+Core Proteins: [1928, 1941]
+Attachment Proteins: []
+
+
+---------Cluster 163-----------
+Core Proteins: [769, 1026, 1258, 4217]
+Attachment Proteins: []
+
+
+---------Cluster 164-----------
+Core Proteins: [839, 840, 841, 894, 1163]
+Attachment Proteins: []
+
+
+---------Cluster 165-----------
+Core Proteins: [977, 1398]
+Attachment Proteins: []
+
+
+---------Cluster 166-----------
+Core Proteins: [871, 2368, 4199]
+Attachment Proteins: []
+
+
+---------Cluster 167-----------
+Core Proteins: [972, 1080, 1082]
+Attachment Proteins: []
+
+
+---------Cluster 168-----------
+Core Proteins: [975, 4079, 4389]
+Attachment Proteins: []
+
+
+---------Cluster 169-----------
+Core Proteins: [1068, 1300, 1774]
+Attachment Proteins: []
+
+
+---------Cluster 170-----------
+Core Proteins: [1084, 1596, 1975, 2236, 2375, 3693, 3731, 3915, 4773, 4793]
+Attachment Proteins: []
+
+
+---------Cluster 171-----------
+Core Proteins: [1145, 1404, 2245, 3182, 4236]
+Attachment Proteins: []
+
+
+---------Cluster 172-----------
+Core Proteins: [1203, 1419, 1421, 2511, 4350]
+Attachment Proteins: []
+
+
+---------Cluster 173-----------
+Core Proteins: [1296, 1440, 1675]
+Attachment Proteins: []
+
+
+---------Cluster 174-----------
+Core Proteins: [1519, 2094, 3682, 4129]
+Attachment Proteins: []
+
+
+---------Cluster 175-----------
+Core Proteins: [1416, 1418, 1967]
+Attachment Proteins: []
+
+
+---------Cluster 176-----------
+Core Proteins: [1483, 1484, 3458]
+Attachment Proteins: []
+
+
+---------Cluster 177-----------
+Core Proteins: [1509, 3842, 4241]
+Attachment Proteins: []
+
+
+---------Cluster 178-----------
+Core Proteins: [1828, 2177]
+Attachment Proteins: [2048.0, 2564.0]
+
+
+---------Cluster 179-----------
+Core Proteins: [1663, 1667, 4376]
+Attachment Proteins: [1672.0]
+
+
+---------Cluster 180-----------
+Core Proteins: [1858, 2860, 4142, 4143]
+Attachment Proteins: []
+
+
+---------Cluster 181-----------
+Core Proteins: [2585, 3360, 4223]
+Attachment Proteins: []
+
+
+---------Cluster 182-----------
+Core Proteins: [3889, 4075, 4076]
+Attachment Proteins: []
+
+
+---------Cluster 183-----------
+Core Proteins: [2, 262, 4054]
+Attachment Proteins: []
+
+
+---------Cluster 184-----------
+Core Proteins: [14, 1392, 1651, 2044, 2317, 2627, 3211, 3546, 3885, 4164, 4165, 4980]
+Attachment Proteins: []
+
+
+---------Cluster 185-----------
+Core Proteins: [104, 1497, 1843, 2329, 4071]
+Attachment Proteins: [1022.0, 1566.0]
+
+
+---------Cluster 186-----------
+Core Proteins: [280, 287]
+Attachment Proteins: []
+
+
+---------Cluster 187-----------
+Core Proteins: [293, 1188, 1393, 1804]
+Attachment Proteins: []
+
+
+---------Cluster 188-----------
+Core Proteins: [326, 405, 661, 798, 1033, 1482, 1501, 1572, 2029, 3772]
+Attachment Proteins: []
+
+
+---------Cluster 189-----------
+Core Proteins: [486, 4210]
+Attachment Proteins: [3231.0, 4214.0]
+
+
+---------Cluster 190-----------
+Core Proteins: [720, 1349, 3002, 3024]
+Attachment Proteins: []
+
+
+---------Cluster 191-----------
+Core Proteins: [812, 2965, 4765, 4770]
+Attachment Proteins: []
+
+
+---------Cluster 192-----------
+Core Proteins: [946, 1611, 4710]
+Attachment Proteins: []
+
+
+---------Cluster 193-----------
+Core Proteins: [1026, 1258, 1665]
+Attachment Proteins: [1666.0]
+
+
+---------Cluster 194-----------
+Core Proteins: [1251, 2565]
+Attachment Proteins: []
+
+
+---------Cluster 195-----------
+Core Proteins: [1428, 1652, 1920]
+Attachment Proteins: []
+
+
+---------Cluster 196-----------
+Core Proteins: [1581, 1582, 1583]
+Attachment Proteins: []
+
+
+---------Cluster 197-----------
+Core Proteins: [2314, 2316, 2346, 2350, 2352, 2624, 2633, 2635]
+Attachment Proteins: []
+
+
+---------Cluster 198-----------
+Core Proteins: [2619, 3062, 3687]
+Attachment Proteins: [4263.0, 4266.0]
+
+
+---------Cluster 199-----------
+Core Proteins: [60, 91, 329, 1297]
+Attachment Proteins: []
+
+
+---------Cluster 200-----------
+Core Proteins: [61, 62, 1339]
+Attachment Proteins: []
+
+
+---------Cluster 201-----------
+Core Proteins: [96, 97, 1263]
+Attachment Proteins: []
+
+
+---------Cluster 202-----------
+Core Proteins: [100, 101, 1382, 4074]
+Attachment Proteins: []
+
+
+---------Cluster 203-----------
+Core Proteins: [141, 236, 1598]
+Attachment Proteins: [205.0]
+
+
+---------Cluster 204-----------
+Core Proteins: [151, 528, 1706]
+Attachment Proteins: [614.0, 615.0]
+
+
+---------Cluster 205-----------
+Core Proteins: [186, 256, 481, 1097, 1377, 1519, 2094, 4129]
+Attachment Proteins: []
+
+
+---------Cluster 206-----------
+Core Proteins: [261, 315, 332, 1354, 1373, 1506, 2651, 4082]
+Attachment Proteins: []
+
+
+---------Cluster 207-----------
+Core Proteins: [228, 355, 356, 884, 3486]
+Attachment Proteins: []
+
+
+---------Cluster 208-----------
+Core Proteins: [1906, 3605]
+Attachment Proteins: [4190.0, 4194.0, 4263.0, 4333.0]
+
+
+---------Cluster 209-----------
+Core Proteins: [400, 1196, 2697, 2698, 3049]
+Attachment Proteins: []
+
+
+---------Cluster 210-----------
+Core Proteins: [769, 1026, 4217]
+Attachment Proteins: []
+
+
+---------Cluster 211-----------
+Core Proteins: [1006, 2603, 2656, 2956]
+Attachment Proteins: []
+
+
+---------Cluster 212-----------
+Core Proteins: [1596, 2375, 3915]
+Attachment Proteins: [1593.0, 4769.0]
+
+
+---------Cluster 213-----------
+Core Proteins: [2221, 2361, 4227]
+Attachment Proteins: []
+
+
+---------Cluster 214-----------
+Core Proteins: [14, 1392, 3211, 3546, 4165]
+Attachment Proteins: []
+
+
+---------Cluster 215-----------
+Core Proteins: [41, 330, 1550, 2093, 2870, 4341]
+Attachment Proteins: []
+
+
+---------Cluster 216-----------
+Core Proteins: [644, 1699, 3138, 4342]
+Attachment Proteins: []
+
+
+---------Cluster 217-----------
+Core Proteins: [66, 531, 532, 4599]
+Attachment Proteins: []
+
+
+---------Cluster 218-----------
+Core Proteins: [81, 541, 676, 2242]
+Attachment Proteins: []
+
+
+---------Cluster 219-----------
+Core Proteins: [98, 99, 350, 351, 1337]
+Attachment Proteins: []
+
+
+---------Cluster 220-----------
+Core Proteins: [135, 1446, 1818, 3898]
+Attachment Proteins: [4048.0]
+
+
+---------Cluster 221-----------
+Core Proteins: [168, 177, 178, 179]
+Attachment Proteins: []
+
+
+---------Cluster 222-----------
+Core Proteins: [529, 3506, 4533]
+Attachment Proteins: []
+
+
+---------Cluster 223-----------
+Core Proteins: [319, 447, 544, 1540]
+Attachment Proteins: []
+
+
+---------Cluster 224-----------
+Core Proteins: [1587, 3870, 4064, 4687, 4692]
+Attachment Proteins: []
+
+
+---------Cluster 225-----------
+Core Proteins: [922, 1802]
+Attachment Proteins: []
+
+
+---------Cluster 226-----------
+Core Proteins: [522, 743, 1868, 1927, 4301]
+Attachment Proteins: []
+
+
+---------Cluster 227-----------
+Core Proteins: [722, 1926, 1930, 1942, 3165]
+Attachment Proteins: []
+
+
+---------Cluster 228-----------
+Core Proteins: [401, 798, 1482, 2530, 3772]
+Attachment Proteins: []
+
+
+---------Cluster 229-----------
+Core Proteins: [2110, 2113, 2114]
+Attachment Proteins: []
+
+
+---------Cluster 230-----------
+Core Proteins: [744, 1093, 1621]
+Attachment Proteins: []
+
+
+---------Cluster 231-----------
+Core Proteins: [587, 811, 984, 1049, 1533, 1888, 2244, 2341, 2342, 2495, 2671, 2734, 2864, 3074, 3208, 3653, 3921, 3957, 3973, 4698, 4764, 4767, 4785, 4787, 4794, 4799]
+Attachment Proteins: []
+
+
+---------Cluster 232-----------
+Core Proteins: [655, 1631, 2834, 2990]
+Attachment Proteins: []
+
+
+---------Cluster 233-----------
+Core Proteins: [677, 728, 2275, 2630]
+Attachment Proteins: []
+
+
+---------Cluster 234-----------
+Core Proteins: [769, 1026, 1665]
+Attachment Proteins: []
+
+
+---------Cluster 235-----------
+Core Proteins: [777, 1007, 2531, 2532]
+Attachment Proteins: []
+
+
+---------Cluster 236-----------
+Core Proteins: [779, 1553, 4359, 4370]
+Attachment Proteins: []
+
+
+---------Cluster 237-----------
+Core Proteins: [1321, 1369, 1626, 2039, 2694]
+Attachment Proteins: []
+
+
+---------Cluster 238-----------
+Core Proteins: [1508, 1817, 2514, 4148]
+Attachment Proteins: []
+
+
+---------Cluster 239-----------
+Core Proteins: [2068, 2669, 4180, 4694]
+Attachment Proteins: []
+
+
+---------Cluster 240-----------
+Core Proteins: [69, 271, 317, 911, 1389, 1532, 1819]
+Attachment Proteins: []
+
+
+---------Cluster 241-----------
+Core Proteins: [134, 3545, 3942, 3994, 4032, 4575, 4576, 4577, 4580, 4583]
+Attachment Proteins: []
+
+
+---------Cluster 242-----------
+Core Proteins: [170, 509, 640, 1471]
+Attachment Proteins: []
+
+
+---------Cluster 243-----------
+Core Proteins: [180, 4309, 4616]
+Attachment Proteins: []
+
+
+---------Cluster 244-----------
+Core Proteins: [193, 261, 315, 332]
+Attachment Proteins: [339.0]
+
+
+---------Cluster 245-----------
+Core Proteins: [236, 3473, 4534]
+Attachment Proteins: []
+
+
+---------Cluster 246-----------
+Core Proteins: [294, 296, 304, 1343]
+Attachment Proteins: [310.0, 313.0]
+
+
+---------Cluster 247-----------
+Core Proteins: [394, 397, 400]
+Attachment Proteins: []
+
+
+---------Cluster 248-----------
+Core Proteins: [396, 643, 4388]
+Attachment Proteins: []
+
+
+---------Cluster 249-----------
+Core Proteins: [553, 906, 3426]
+Attachment Proteins: []
+
+
+---------Cluster 250-----------
+Core Proteins: [635, 4336, 4474]
+Attachment Proteins: []
+
+
+---------Cluster 251-----------
+Core Proteins: [812, 2965, 3117]
+Attachment Proteins: []
+
+
+---------Cluster 252-----------
+Core Proteins: [2469, 3915, 3930]
+Attachment Proteins: []
+
+
+---------Cluster 253-----------
+Core Proteins: [1097, 4348, 4483]
+Attachment Proteins: []
+
+
+---------Cluster 254-----------
+Core Proteins: [1611, 1614, 4711]
+Attachment Proteins: [1911.0]
+
+
+---------Cluster 255-----------
+Core Proteins: [41, 330, 4341]
+Attachment Proteins: []
+
+
+---------Cluster 256-----------
+Core Proteins: [100, 101]
+Attachment Proteins: []
+
+
+---------Cluster 257-----------
+Core Proteins: [798, 1033, 1501, 1572]
+Attachment Proteins: []
+
+
+---------Cluster 258-----------
+Core Proteins: [429, 1182, 1550, 2536]
+Attachment Proteins: []
+
+
+---------Cluster 259-----------
+Core Proteins: [904, 1084, 1596, 1975, 2236, 2375, 3915]
+Attachment Proteins: []
+
+
+---------Cluster 260-----------
+Core Proteins: [1331, 1805, 1814, 2305]
+Attachment Proteins: [1385.0, 1386.0, 1633.0]
+
+
+---------Cluster 261-----------
+Core Proteins: [1738, 4210, 4211, 4383]
+Attachment Proteins: []
+
+
+---------Cluster 262-----------
+Core Proteins: [65, 66, 531]
+Attachment Proteins: []
+
+
+---------Cluster 263-----------
+Core Proteins: [96, 97]
+Attachment Proteins: []
+
+
+---------Cluster 264-----------
+Core Proteins: [100, 1381, 1454]
+Attachment Proteins: []
+
+
+---------Cluster 265-----------
+Core Proteins: [114, 2882, 4252]
+Attachment Proteins: [4263.0]
+
+
+---------Cluster 266-----------
+Core Proteins: [139, 374, 1608]
+Attachment Proteins: []
+
+
+---------Cluster 267-----------
+Core Proteins: [144, 830, 831]
+Attachment Proteins: []
+
+
+---------Cluster 268-----------
+Core Proteins: [183, 184]
+Attachment Proteins: []
+
+
+---------Cluster 269-----------
+Core Proteins: [210, 440, 441]
+Attachment Proteins: []
+
+
+---------Cluster 270-----------
+Core Proteins: [252, 253, 255]
+Attachment Proteins: []
+
+
+---------Cluster 271-----------
+Core Proteins: [363, 364, 4060]
+Attachment Proteins: []
+
+
+---------Cluster 272-----------
+Core Proteins: [495, 496, 1545]
+Attachment Proteins: []
+
+
+---------Cluster 273-----------
+Core Proteins: [574, 963, 3525]
+Attachment Proteins: []
+
+
+---------Cluster 274-----------
+Core Proteins: [652, 2720, 4225]
+Attachment Proteins: []
+
+
+---------Cluster 275-----------
+Core Proteins: [1590, 1591]
+Attachment Proteins: [1593.0]
+
+
+---------Cluster 276-----------
+Core Proteins: [839, 840, 842]
+Attachment Proteins: []
+
+
+---------Cluster 277-----------
+Core Proteins: [860, 891, 2453]
+Attachment Proteins: []
+
+
+---------Cluster 278-----------
+Core Proteins: [926, 927]
+Attachment Proteins: []
+
+
+---------Cluster 279-----------
+Core Proteins: [1339, 1767, 3139]
+Attachment Proteins: []
+
+
+---------Cluster 280-----------
+Core Proteins: [1405, 1422]
+Attachment Proteins: []
+
+
+---------Cluster 281-----------
+Core Proteins: [1568, 2392, 4786]
+Attachment Proteins: []
+
+
+---------Cluster 282-----------
+Core Proteins: [69, 271, 275, 911, 1532]
+Attachment Proteins: []
+
+
+---------Cluster 283-----------
+Core Proteins: [85, 87, 265, 1026, 1258]
+Attachment Proteins: []
+
+
+---------Cluster 284-----------
+Core Proteins: [100, 101, 555]
+Attachment Proteins: []
+
+
+---------Cluster 285-----------
+Core Proteins: [317, 1345, 2190, 3217, 3529, 4273]
+Attachment Proteins: []
+
+
+---------Cluster 286-----------
+Core Proteins: [802, 2376, 4137]
+Attachment Proteins: []
+
+
+---------Cluster 287-----------
+Core Proteins: [1889, 2931, 4527]
+Attachment Proteins: []
+
+
+---------Cluster 288-----------
+Core Proteins: [2330, 2857, 2919]
+Attachment Proteins: []
+
+
+---------Cluster 289-----------
+Core Proteins: [41, 330, 2148]
+Attachment Proteins: []
+
+
+---------Cluster 290-----------
+Core Proteins: [68, 1582, 1583]
+Attachment Proteins: []
+
+
+---------Cluster 291-----------
+Core Proteins: [193, 315, 401, 1572]
+Attachment Proteins: []
+
+
+---------Cluster 292-----------
+Core Proteins: [723, 1231, 1938]
+Attachment Proteins: []
+
+
+---------Cluster 293-----------
+Core Proteins: [893, 1533, 3716]
+Attachment Proteins: [2723.0]
+
+
+---------Cluster 294-----------
+Core Proteins: [984, 2569, 3890, 4831]
+Attachment Proteins: []
+
+
+---------Cluster 295-----------
+Core Proteins: [85, 87, 265, 769, 1026]
+Attachment Proteins: []
+
+
+---------Cluster 296-----------
+Core Proteins: [193, 1033, 1501]
+Attachment Proteins: []
+
+
+---------Cluster 297-----------
+Core Proteins: [197, 306, 628, 630]
+Attachment Proteins: [1475.0]
+
+
+---------Cluster 298-----------
+Core Proteins: [587, 811, 984]
+Attachment Proteins: []
+
+
+---------Cluster 299-----------
+Core Proteins: [2191, 3232, 4765]
+Attachment Proteins: []
+
+
+---------Cluster 300-----------
+Core Proteins: [94, 680, 1185]
+Attachment Proteins: []
+
+
+---------Cluster 301-----------
+Core Proteins: [97, 104, 656]
+Attachment Proteins: []
+
+
+---------Cluster 302-----------
+Core Proteins: [98, 99]
+Attachment Proteins: []
+
+
+---------Cluster 303-----------
+Core Proteins: [107, 108, 2071]
+Attachment Proteins: []
+
+
+---------Cluster 304-----------
+Core Proteins: [110, 788, 4053]
+Attachment Proteins: []
+
+
+---------Cluster 305-----------
+Core Proteins: [113, 357, 1956]
+Attachment Proteins: []
+
+
+---------Cluster 306-----------
+Core Proteins: [134, 3316, 3545]
+Attachment Proteins: []
+
+
+---------Cluster 307-----------
+Core Proteins: [138, 996, 1828]
+Attachment Proteins: []
+
+
+---------Cluster 308-----------
+Core Proteins: [139, 374, 1503]
+Attachment Proteins: []
+
+
+---------Cluster 309-----------
+Core Proteins: [159, 164, 659]
+Attachment Proteins: []
+
+
+---------Cluster 310-----------
+Core Proteins: [161, 1413, 3690]
+Attachment Proteins: []
+
+
+---------Cluster 311-----------
+Core Proteins: [167, 1088, 3589]
+Attachment Proteins: [4263.0]
+
+
+---------Cluster 312-----------
+Core Proteins: [180, 584, 1554, 4309]
+Attachment Proteins: []
+
+
+---------Cluster 313-----------
+Core Proteins: [186, 256, 283]
+Attachment Proteins: []
+
+
+---------Cluster 314-----------
+Core Proteins: [187, 3949, 3962]
+Attachment Proteins: [4066.0]
+
+
+---------Cluster 315-----------
+Core Proteins: [191, 1301, 3624, 4186]
+Attachment Proteins: []
+
+
+---------Cluster 316-----------
+Core Proteins: [197, 306, 630, 950]
+Attachment Proteins: []
+
+
+---------Cluster 317-----------
+Core Proteins: [198, 279, 281, 1802]
+Attachment Proteins: []
+
+
+---------Cluster 318-----------
+Core Proteins: [217, 273, 280]
+Attachment Proteins: []
+
+
+---------Cluster 319-----------
+Core Proteins: [244, 1985, 2436, 2672, 4107, 4294]
+Attachment Proteins: []
+
+
+---------Cluster 320-----------
+Core Proteins: [259, 260, 1401]
+Attachment Proteins: []
+
+
+---------Cluster 321-----------
+Core Proteins: [286, 928, 1876]
+Attachment Proteins: [920.0, 1216.0]
+
+
+---------Cluster 322-----------
+Core Proteins: [293, 407, 1152]
+Attachment Proteins: [1658.0]
+
+
+---------Cluster 323-----------
+Core Proteins: [303, 522, 743]
+Attachment Proteins: []
+
+
+---------Cluster 324-----------
+Core Proteins: [340, 341, 4151]
+Attachment Proteins: []
+
+
+---------Cluster 325-----------
+Core Proteins: [355, 880, 881, 883, 1893, 1979, 3681]
+Attachment Proteins: []
+
+
+---------Cluster 326-----------
+Core Proteins: [395, 402, 403]
+Attachment Proteins: []
+
+
+---------Cluster 327-----------
+Core Proteins: [399, 722, 724]
+Attachment Proteins: []
+
+
+---------Cluster 328-----------
+Core Proteins: [422, 3145, 3249]
+Attachment Proteins: []
+
+
+---------Cluster 329-----------
+Core Proteins: [423, 713, 1711]
+Attachment Proteins: []
+
+
+---------Cluster 330-----------
+Core Proteins: [459, 538, 1512]
+Attachment Proteins: []
+
+
+---------Cluster 331-----------
+Core Proteins: [488, 489, 498]
+Attachment Proteins: []
+
+
+---------Cluster 332-----------
+Core Proteins: [495, 496, 1542]
+Attachment Proteins: []
+
+
+---------Cluster 333-----------
+Core Proteins: [587, 811, 984, 1049, 2244, 2495, 2671]
+Attachment Proteins: []
+
+
+---------Cluster 334-----------
+Core Proteins: [605, 1065, 2687]
+Attachment Proteins: []
+
+
+---------Cluster 335-----------
+Core Proteins: [607, 608, 1122]
+Attachment Proteins: [3858.0]
+
+
+---------Cluster 336-----------
+Core Proteins: [652, 1823, 2720]
+Attachment Proteins: [4190.0]
+
+
+---------Cluster 337-----------
+Core Proteins: [666, 902, 2855]
+Attachment Proteins: []
+
+
+---------Cluster 338-----------
+Core Proteins: [668, 1180, 2347]
+Attachment Proteins: []
+
+
+---------Cluster 339-----------
+Core Proteins: [671, 672, 1435]
+Attachment Proteins: []
+
+
+---------Cluster 340-----------
+Core Proteins: [679, 707, 1300]
+Attachment Proteins: []
+
+
+---------Cluster 341-----------
+Core Proteins: [681, 3507, 4083, 4084]
+Attachment Proteins: []
+
+
+---------Cluster 342-----------
+Core Proteins: [692, 704, 4131]
+Attachment Proteins: []
+
+
+---------Cluster 343-----------
+Core Proteins: [720, 1349, 1400]
+Attachment Proteins: []
+
+
+---------Cluster 344-----------
+Core Proteins: [756, 904, 1596]
+Attachment Proteins: []
+
+
+---------Cluster 345-----------
+Core Proteins: [808, 1213, 1242]
+Attachment Proteins: []
+
+
+---------Cluster 346-----------
+Core Proteins: [812, 2965, 4765]
+Attachment Proteins: []
+
+
+---------Cluster 347-----------
+Core Proteins: [813, 822, 825]
+Attachment Proteins: []
+
+
+---------Cluster 348-----------
+Core Proteins: [839, 840, 841]
+Attachment Proteins: []
+
+
+---------Cluster 349-----------
+Core Proteins: [935, 1266, 1842]
+Attachment Proteins: [4556.0]
+
+
+---------Cluster 350-----------
+Core Proteins: [1067, 2300, 4512]
+Attachment Proteins: []
+
+
+---------Cluster 351-----------
+Core Proteins: [1203, 1419, 2511]
+Attachment Proteins: []
+
+
+---------Cluster 352-----------
+Core Proteins: [1500, 1501, 4293]
+Attachment Proteins: []
+
+
+---------Cluster 353-----------
+Core Proteins: [1858, 2860, 4142]
+Attachment Proteins: []
+
+
+---------Cluster 354-----------
+Core Proteins: [2128, 2426, 3464]
+Attachment Proteins: []
+
+
+---------Cluster 355-----------
+Core Proteins: [10, 276, 2857]
+Attachment Proteins: []
+
+
+---------Cluster 356-----------
+Core Proteins: [14, 1145, 1392]
+Attachment Proteins: []
+
+
+---------Cluster 357-----------
+Core Proteins: [31, 32, 407]
+Attachment Proteins: []
+
+
+---------Cluster 358-----------
+Core Proteins: [41, 330, 1550]
+Attachment Proteins: []
+
+
+---------Cluster 359-----------
+Core Proteins: [51, 52, 1218]
+Attachment Proteins: []
+
+
+---------Cluster 360-----------
+Core Proteins: [55, 56, 1408]
+Attachment Proteins: []
+
+
+---------Cluster 361-----------
+Core Proteins: [65, 66, 68]
+Attachment Proteins: []
+
+
+---------Cluster 362-----------
+Core Proteins: [69, 271, 317, 1389, 1819]
+Attachment Proteins: []
+
+
+---------Cluster 363-----------
+Core Proteins: [75, 77, 228]
+Attachment Proteins: []
+
+
+---------Cluster 364-----------
+Core Proteins: [78, 109, 1649]
+Attachment Proteins: []
+
+
+---------Cluster 365-----------
+Core Proteins: [85, 87, 265]
+Attachment Proteins: []
+
+
+---------Cluster 366-----------
+Core Proteins: [95, 96, 97]
+Attachment Proteins: []
+
+
+---------Cluster 367-----------
+Core Proteins: [141, 149, 490]
+Attachment Proteins: [150.0, 166.0, 615.0]
+
+
+---------Cluster 368-----------
+Core Proteins: [167, 245, 1088]
+Attachment Proteins: [4263.0]
+
+
+---------Cluster 369-----------
+Core Proteins: [186, 256, 481]
+Attachment Proteins: []
+
+
+---------Cluster 370-----------
+Core Proteins: [237, 600, 2549]
+Attachment Proteins: []
+
+
+---------Cluster 371-----------
+Core Proteins: [249, 2071, 2072, 2080]
+Attachment Proteins: [4066.0]
+
+
+---------Cluster 372-----------
+Core Proteins: [326, 405, 1572, 2029]
+Attachment Proteins: []
+
+
+---------Cluster 373-----------
+Core Proteins: [395, 402, 403, 924, 1331]
+Attachment Proteins: [1385.0, 1386.0]
+
+
+---------Cluster 374-----------
+Core Proteins: [432, 433, 2624]
+Attachment Proteins: []
+
+
+---------Cluster 375-----------
+Core Proteins: [678, 775, 2084]
+Attachment Proteins: []
+
+
+---------Cluster 376-----------
+Core Proteins: [756, 904, 1889]
+Attachment Proteins: []
+
+
+---------Cluster 377-----------
+Core Proteins: [758, 946, 1610]
+Attachment Proteins: []
+
+
+---------Cluster 378-----------
+Core Proteins: [843, 3041, 4171]
+Attachment Proteins: []
+
+
+---------Cluster 379-----------
+Core Proteins: [1344, 2055, 2773, 4202, 4203, 4535, 4641]
+Attachment Proteins: []
+
+
+---------Cluster 380-----------
+Core Proteins: [1711, 2914, 4178]
+Attachment Proteins: []
+
+
+---------Cluster 381-----------
+Core Proteins: [1993, 3249, 4453]
+Attachment Proteins: []
+
+
+---------Cluster 382-----------
+Core Proteins: [2931, 4761, 4888]
+Attachment Proteins: []
+
+
+---------Cluster 383-----------
+Core Proteins: [10, 276, 486]
+Attachment Proteins: []
+
+
+---------Cluster 384-----------
+Core Proteins: [31, 32, 294, 297]
+Attachment Proteins: []
+
+
+---------Cluster 385-----------
+Core Proteins: [51, 52, 53]
+Attachment Proteins: []
+
+
+---------Cluster 386-----------
+Core Proteins: [60, 91, 261]
+Attachment Proteins: []
+
+
+---------Cluster 387-----------
+Core Proteins: [61, 62, 1006]
+Attachment Proteins: []
+
+
+---------Cluster 388-----------
+Core Proteins: [151, 490, 782, 1878]
+Attachment Proteins: []
+
+
+---------Cluster 389-----------
+Core Proteins: [587, 811, 1049]
+Attachment Proteins: []
+
+
+---------Cluster 390-----------
+Core Proteins: [678, 1803, 2084]
+Attachment Proteins: []
+
+
+---------Cluster 391-----------
+Core Proteins: [2894, 2919, 4256]
+Attachment Proteins: []
+
+
+---------Cluster 392-----------
+Core Proteins: [755, 1715, 4133]
+Attachment Proteins: []
+
+
+---------Cluster 393-----------
+Core Proteins: [1006, 2221, 2603, 2956]
+Attachment Proteins: []
+
+
+---------Cluster 394-----------
+Core Proteins: [1922, 4177, 4298]
+Attachment Proteins: [3213.0]
+
+
+---------Cluster 395-----------
+Core Proteins: [2670, 3291, 4081]
+Attachment Proteins: []
+
+
+---------Cluster 396-----------
+Core Proteins: [193, 1501, 1572]
+Attachment Proteins: []
+
+
+---------Cluster 397-----------
+Core Proteins: [292, 1359, 1750]
+Attachment Proteins: []
+
+
+---------Cluster 398-----------
+Core Proteins: [467, 491, 667]
+Attachment Proteins: []
+
+
+---------Cluster 399-----------
+Core Proteins: [245, 2619, 3062]
+Attachment Proteins: [4263.0]
+
+
+---------Cluster 400-----------
+Core Proteins: [924, 1331]
+Attachment Proteins: [1385.0, 1386.0, 1633.0]
+
+
+---------Cluster 401-----------
+Core Proteins: [1368, 1370, 1530]
+Attachment Proteins: []
+
+
+---------Cluster 402-----------
+Core Proteins: [1664, 1849, 4090]
 Attachment Proteins: []
 
 

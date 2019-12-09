@@ -7,7 +7,7 @@ else
     unameOut="$(uname -s)"
     case "${unameOut}" in
         Linux*)     machine=Linux;;
-        Darwin*)    machine=Mac;;
+        Darwin*)    machine=OSX;;
         CYGWIN*)    machine=Cygwin;;
         MINGW*)     machine=MinGw;;
         *)          machine="UNKNOWN:${unameOut}"
