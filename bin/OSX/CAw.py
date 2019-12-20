@@ -2,14 +2,23 @@ import numpy as np
 import pandas as pd
 from itertools import chain
 import sys
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('-a', type = float)
+parser.add_argument('-g', type = float)
+parser.add_argument('-n')
+parser.add_argument('-c')
+parser.add_argument('-o')
+args = parser.parse_args()
 
 clusters = []
-with open(sys.argv[2], 'r') as f:
+with open(args.c, 'r') as f:
     for row in f:
         clusters.append([int(i) for i in row.split()])
 
 graph = []
-with open(sys.argv[1], 'r') as a:
+with open(args.n, 'r') as a:
     for row in a:
         graph.append([float(i) for i in row.split()])
 V, Vnew, E = [int(i) for i in graph[0]]
@@ -108,16 +117,16 @@ for protein_i,rows in connected_proteins.iterrows():
             if not cluster_match.empty:
                 p_interC.loc[protein_i, cluster_match] += protein_i_weights.iloc[protein_j_index]
 
-alpha = 1.0
-gamma = 0.75
+alpha = args.a
+gamma = args.g
 isAttachment = (p_interC>=alpha*cluster_inter*(np.array(cluster_size, dtype = 'float64')/2.0)**-gamma) #the cluster_size here is based on original code which differs with the definition on the paper
 
 with open('prettycaw.out', 'w+') as prettycaw:
-    with open(sys.argv[3], 'w+') as caw:
+    with open(args.o, 'w+') as caw:
         cluster_count = 0
         for cluster in cluster_mapping:
             if (isCore.loc[:,cluster].sum() > 0):
-                if (isCore.loc[:,cluster].sum() > 0 and (isCore.loc[:,cluster].sum() + isAttachment.loc[p_interC.loc[:,cluster][p_interC.loc[:,cluster]!=0].index,cluster][isAttachment.loc[p_interC.loc[:,cluster][p_interC.loc[:,cluster]!=0].index,cluster]==True].count())>=4 ):
+                if (isCore.loc[:,cluster].sum() > 0 and (isCore.loc[:,cluster].sum() + isAttachment.loc[p_interC.loc[:,cluster][p_interC.loc[:,cluster]!=0].index,cluster][isAttachment.loc[p_interC.loc[:,cluster][p_interC.loc[:,cluster]!=0].index,cluster]==True].count())>=2 ):
                     prettycaw.write("---------Cluster {}-----------\n".format(cluster_count+1) )
                     prettycaw.write("Core Proteins: {}\n".format(isCore.loc[:,cluster][isCore.loc[:,cluster]==True].index.astype(int).tolist()))
                     caw.write(" ".join(isCore.loc[:,cluster][isCore.loc[:,cluster]==True].index.astype(int).astype(str).tolist()))

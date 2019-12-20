@@ -48,12 +48,12 @@ else
         
     echo "Finished computing FSWeights. Now running ${mode}MCL..."
 
-    $MCL $NETWORKSFILE4MCL -p $p -q $q -w $w -o $CLUSTERFILE
+    $MCL $NETWORKSFILE4MCL -t 30 -p $p -q $q -w $w -o $CLUSTERFILE
 
     echo "Finished ${mode}MCL. Now running CAw..."
 
     if [ "$mode" == "sr" ]; then
-         python $CAEPY $NETWORKSFILE $CLUSTERFILE $COREATTCHFILE
+         python $CAEPY -n $NETWORKSFILE -c $CLUSTERFILE -o $COREATTCHFILE -a $alpha -g $gamma
     else 
         $CAE -a "${alpha}" -g "${gamma}" $NETWORKSFILE $CLUSTERFILE $COREATTCHFILE
     fi
